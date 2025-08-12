@@ -1,0 +1,228 @@
+IsSetWinAndE	1
+IsForceWinAndEANewWindow	0
+IsDefaultFileManager	1
+DownloadDir	C:\Users\Administrator\Downloads
+DownloadDir	C:\Users\Administrator\Desktop
+IsWindowTitleFolderName	0
+MaximizedWindowMargin	0
+Language	zh
+DateTimeFormat	标准
+ThumbnailCacheSize	300
+IsShowHomeButton	1
+IsShareAddressBar	0
+IsUsingSearcher	1
+IsDisplayInChinese	1
+HideRecentFilesInThisPC	0
+NewTabMode	全工作区
+AddTabMoreButtonDisplayMode	总是显示
+IsOpenFavoDirInNewTab	0
+IsOpenLaunchPanelItemDirInNewTab	0
+IsDoubleClickToCloseTab	1
+IsPreventClosingLastTab	0
+RecoverTabsMode	点击恢复
+IsShowTabFootprint	0
+IsShowOperationBar	1
+OperationBarItem	新建文件夹|0
+OperationBarItem	剪切|1
+OperationBarItem	复制|1
+OperationBarItem	粘贴|1
+OperationBarItem	重命名|0
+OperationBarItem	删除|1
+OperationBarItem	撤销|1
+OperationBarItem	重做|0
+OperationBarItem	属性|0
+OperationBarItem	刷新|0
+OperationBarItem	复制名称|0
+OperationBarItem	复制全路径|1
+IsShowLayoutBar	1
+LayoutBarItem	在副工作区打开（左右）|1
+LayoutBarItem	在副工作区打开（上下）|1
+LayoutBarItem	将当前工作区移至新标签页|1
+LayoutBarItem	关闭当前工作区|1
+IsShowMenuButton	1
+NavigationAreaMode	快捷图标 & 目录树
+NavigationBarButton	快捷图标|1
+NavigationBarButton	目录树|1
+NavigationBarButton	快速启动|1
+NavigationIconItem	此电脑|1
+NavigationIconItem	回收站|1
+NavigationIconItem	控制面板|1
+UnfoldTreeRoot	系统磁盘|0
+UnfoldTreeRoot	本地磁盘|1
+UnfoldTreeRoot	可移动磁盘|0
+UnfoldTreeRoot	网络磁盘|0
+IsAutoUnfoldTreeNode	1
+IsTracingTreePath	1
+IsDisplayOperationalPrompt	1
+DetailsTooltipMode	2
+IsDoubleClickBlankToGoUp	1
+NewFolderFileNameMode	yyyyMMdd-新建文件夹/文件
+IsNameWithExtension	1
+TypeColor	*DIR*|#FFEBA2
+TypeColor	*FILE*|#1BA035
+TypeColor	PDF|#B30B00
+TypeColor	DOCX|#2E5494
+TypeColor	DOC|#2E5494
+TypeColor	XLSX|#1E7E4A
+TypeColor	XLS|#1E7E4A
+TypeColor	PPTX|#D04526
+TypeColor	PPT|#D04526
+TypeColor	ZIP|#005C98
+TypeColor	RAR|#C01E3C
+TypeColor	7Z|#000000
+TypeColor	PSD|#001E36
+TypeColor	PNG|#538135
+TypeColor	JPG|#2671FC
+TypeColor	JPEG|#2671FC
+TypeColor	BMP|#8663FB
+TypeColor	MP4|#3F48CC
+TypeColor	MP3|#8E4D8E
+TypeColor	TXT|#767676
+TypeColor	EXE|#5684BF
+IsSmartHideFolderColorMark	1
+IsDefaultSortFolderFirst	1
+IsDefaultShowHiddenItems	1
+IsHideSystemFile	1
+IsHideAlaFile	1
+IsStatusBarInfoCentered	1
+DefaultBodyMode	0
+RowStyle	下横线
+ColumnDefaultVisibility	名称|1
+ColumnDefaultVisibility	类型|1
+ColumnDefaultVisibility	大小|1
+ColumnDefaultVisibility	修改时间|1
+ColumnDefaultVisibility	创建时间|1
+ColumnDefaultVisibility	访问时间|1
+ColumnDefaultVisibility	备注|1
+IsShowDirSubItemsCount0	1
+IsShowFileAccessCount0	1
+IsShowImagePixel0	1
+IsShowDirSize0	1
+IsShowLastWriteTimeAge0	1
+IsShowCreationTimeAge0	1
+IsShowLastAccessTimeAge0	1
+Body2ItemWidth	300
+IsShowDirSubItemsCount1	1
+IsShowFileAccessCount1	1
+IsShowFileType1	1
+IsShowImagePixel1	1
+IsShowDirSubItemsCount3	1
+IsShowFileAccessCount3	1
+IsShowFileType3	1
+IsShowImagePixel3	1
+IsShowDirSize3	1
+IsShowLastWriteTimeAge3	1
+IsShowDirSubItemsCount4	1
+IsShowFileAccessCount4	1
+IsShowImagePixel4	1
+IsShowDirSize4	1
+IsShowLastWriteTimeAge4	0
+IsShowCreationTimeAge4	0
+IsShowLastAccessTimeAge4	0
+IsDoubleClickDirOpenInNewTab5	1
+DefaultBandizipType	zip
+IsMarkFirst	1
+MenuItemsAggr	打开,-1
+MenuItemsAggr	基础,-1
+MenuItemsAggr	标记,0
+MenuItemsAggr	收藏|高级文件,1
+MenuItemsAggr	高级文件|选择,1
+MenuItemsAggr	收藏|搜索,1
+MenuItemsAggr	高级文件夹,-1
+MenuItemsAggr	选择|其他,-1
+BuildinMenuItem	添加到收藏|1
+BuildinMenuItem	设为常用文件夹|1
+BuildinMenuItem	设置快捷键启动|1
+BuildinMenuItem	-1|1
+BuildinMenuItem	搜索|1
+BuildinMenuItem	搜索文件内容|0
+BuildinMenuItem	-2|1
+BuildinMenuItem	置顶|1
+BuildinMenuItem	进度设置|1
+BuildinMenuItem	颜色标记|1
+BuildinMenuItem	标签|1
+BuildinMenuItem	备注|1
+BuildinMenuItem	-3|1
+BuildinMenuItem	高级重命名|0
+BuildinMenuItem	比对文件|0
+BuildinMenuItem	计算文件哈希值|0
+BuildinMenuItem	粉碎文件|0
+BuildinMenuItem	解散文件夹|0
+BuildinMenuItem	清理空文件夹|0
+BuildinMenuItem	清理重复文件|0
+BuildinMenuItem	管理存储空间|0
+BuildinMenuItem	高级文件传输|0
+BuildinMenuItem	-4|1
+BuildinMenuItem	全部选择|0
+BuildinMenuItem	反向选择|0
+BuildinMenuItem	复制名称|0
+BuildinMenuItem	复制全路径|0
+BuildinMenuItem	-5|1
+BuildinMenuItem	在此处打开 PowerShell 窗口|0
+BuildinMenuItem	在此处打开 CMD 窗口|0
+BuildinMenuItem	定制文件夹图标|0
+BuildinMenuItem	生成快捷方式|0
+BuildinMenuItem	-6|1
+CloudApp	文件格式转换器 - OnlineConvertFree|https://onlineconvertfree.com/zh|1
+CloudApp	文件格式转换器 - FreeConvert|https://www.freeconvert.com/zh|1
+CloudApp	文件格式转换器 - Convertio|https://convertio.co/zh|1
+CloudApp	PDF 工具 - iLovePDF|https://www.ilovepdf.com/zh-cn|1
+CloudApp	PDF 工具 - Smallpdf|https://smallpdf.com/cn/pdf-tools|1
+CloudApp	PDF 工具 - PDF Candy|https://pdfcandy.com/cn|1
+CloudApp	图片处理工具 - iLoveIMG|https://www.iloveimg.com/zh-cn|1
+CloudApp	图片背景消除 - Remove.bg|https://www.remove.bg/zh|1
+CloudApp	图片背景消除 - Clipping Magic|https://zh.clippingmagic.com|1
+CloudApp	图片压缩 - TinyPNG|https://tinify.cn|1
+CloudApp	图片压缩 - Bulk Resize Photos|https://bulkresizephotos.com/zh|1
+CloudApp	图片压缩 - JPEG-Optimizer|https://www.jpeg-optimizer.com|1
+CloudApp	图片智能放大 - Bigjpg|https://bigjpg.com|1
+CloudApp	图片智能放大 - LetsEnhance|https://letsenhance.io/zh-CN|1
+CloudApp	图片编辑器 - Pixlr|https://pixlr.com/cn|1
+CloudApp	图片编辑器 - Photopea|https://www.photopea.com|1
+CloudApp	文件分享 - AirPortal|https://www.airportal.cn|1
+CloudApp	文件分享 - Filemail|https://www.filemail.com/zh|1
+CloudApp	文件分享 - Send Anywhere|https://send-anywhere.com|1
+IsGit	1
+IsDisplayFixedSystemMenuItem	1
+IsUsingProcessExplorer	1
+IsUsingEverything	1
+IsUsingAnyTXTSearcher	0
+IsUsingQuickLook	0
+IsUsingSageThumbs	0
+IsUsingBandizip	1
+IsUsingBandiView	1
+IsUsingpaint.net	0
+IsUsingPhotoshop	0
+IsUsingNotepad++	1
+IsUsingAIMP	0
+IsUsingPotPlayer	0
+IsUsingAdvancedRename	1
+IsUsingComparer	1
+IsUsingHash	1
+IsUsingShredder	1
+IsUsingDissolveFolder	1
+IsUsingClearEmptyFolders	1
+IsUsingdupeGuru	0
+IsUsingSpaceSniffer	1
+IsUsingAntRenamer2	1
+IsUsingFastCopy	1
+IsUsingEchosync	0
+IsUsingFileZilla	0
+ProcessExplorerPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\ProcessExplorer\procexp64.exe
+EverythingPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\Everything\Everything.exe
+AnyTXTSearcherPath	C:\Program Files\AnyTXT Searcher\ATGUI.exe
+QuickLookPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\QuickLook\QuickLook.exe
+SageThumbsPath	C:\Program Files (x86)\SageThumbs\64\SageThumbs.dll
+BandizipPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\Bandizip\Bandizip.x64.exe
+BandiViewPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\BandiView\BandiView.exe
+paint.netPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\paint.net\paintdotnet.exe
+PhotoshopPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\Photoshop\Photoshop.exe
+Notepad++Path	C:\Users\Administrator\AppData\Roaming\AllenExplorer\Notepad++\notepad++.exe
+AIMPPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\AIMP\AIMP.exe
+PotPlayerPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\PotPlayer\PotPlayerMini64.exe
+dupeGuruPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\dupeGuru\dupeguru-win64.exe
+SpaceSnifferPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\SpaceSniffer\SpaceSniffer.exe
+AntRenamer2Path	C:\Users\Administrator\AppData\Roaming\AllenExplorer\AntRenamer2\Renamer.exe
+FastCopyPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\FastCopy\FastCopy.exe
+EchosyncPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\Echosync\Echosync.exe
+FileZillaPath	C:\Users\Administrator\AppData\Roaming\AllenExplorer\FileZilla\filezilla.exe

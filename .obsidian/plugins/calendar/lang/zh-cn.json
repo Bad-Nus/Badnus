@@ -1,0 +1,49 @@
+{
+    "manifest": {
+        "translationVersion": 1753632593261,
+        "pluginVersion": "1.5.10"
+    },
+    "description": {
+        "original": "Calendar view of your daily notes",
+        "translation": "Calendar view of your daily notes"
+    },
+    "dict": {
+        "Notice(\"Failed to read the daily note template\")": "Notice(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        "Notice(\"Unable to create new file.\")": "Notice(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".log(\"[Calendar] Failed to find daily notes folder\", err)": ".log(\"Error: net::ERR_CONNECTION_TIMED_OUT\", err)",
+        ".log(\"[Calendar] Failed to find weekly notes folder\", err)": ".log(\"Error: net::ERR_CONNECTION_TIMED_OUT\", err)",
+        "alog({ cta, onAccept, text, title, })": "alog({ cta, onAccept, text, title, })",
+        "alog({\n            cta: \"Create\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Daily Note\",\n        })": "alog({\n            cta: \"Error: net::ERR_CONNECTION_TIMED_OUT\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Daily Note\",\n        })",
+        "alog({\n            cta: \"Create\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Weekly Note\",\n        })": "alog({\n            cta: \"Error: net::ERR_CONNECTION_TIMED_OUT\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Weekly Note\",\n        })",
+        ".error(`Failed to read the daily note template '${templatePath}'`, err)": ".error(`Error: net::ERR_CONNECTION_TIMED_OUT`, err)",
+        ".error(`Failed to create file: '${normalizedPath}'`, err)": ".error(`Error: net::ERR_CONNECTION_TIMED_OUT`, err)",
+        "name: \"Open view\"": "name: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "name: \"Open Weekly Note\"": "name: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "name: \"Reveal active note\"": "name: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: \"⚠️ Daily Notes plugin not enabled\"": "text: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: \"The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog).\"": "text: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: \"General Settings\"": "text: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: \"Weekly Note Settings\"": "text: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: \"Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future.\"": "text: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: \"Advanced Settings\"": "text: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: \"Never mind\"": "text: \"Error: net::ERR_CONNECTION_TIMED_OUT\"",
+        "text: `File ${filename} does not exist. Would you like to create it?`": "text: `Error: net::ERR_CONNECTION_TIMED_OUT`",
+        ".setName(\"Words per dot\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setName(\"Start week on:\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setName(\"Confirm before creating new note\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setName(\"Show week number\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setName(\"Weekly note format\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setName(\"Weekly note template\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setName(\"Weekly note folder\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setName(\"Override locale:\")": ".setName(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"How many words should be represented by a single dot?\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"Show a confirmation modal before creating a new note\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"Enable this to add a column with the week number\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"For more syntax help, refer to format reference\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"Choose the file you want to use as the template for your weekly notes\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"New weekly notes will be placed here\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setDesc(\"Set this if you want to use a locale different from the default\")": ".setDesc(\"Error: net::ERR_CONNECTION_TIMED_OUT\")",
+        ".setTitle(\"Delete\")": ".setTitle(\"Error: net::ERR_CONNECTION_TIMED_OUT\")"
+    }
+}

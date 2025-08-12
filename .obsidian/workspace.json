@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "80c0468d69c1b14c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6576e30737474ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f01182002310e6d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题解/其他/题解：SSLOJ-T493617 猴猴吃香蕉.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "题解：SSLOJ-T493617 猴猴吃香蕉"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e046152c0661f68c",
+    "type": "split",
+    "children": [
+      {
+        "id": "835ac703bd37ce99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ed8db729bcd1fa4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "8644649a2d84b3fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "98dfe7b3f6942c88",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "6be50eaf3ba4c617",
+    "type": "split",
+    "children": [
+      {
+        "id": "43ef521c066e5f9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e3a77015f93ca75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "资料/数学/数学笔记全.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "数学笔记全 的反向链接列表"
+            }
+          },
+          {
+            "id": "7ce0a7cae8ad8b54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "待记笔记.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "待记笔记 的出链列表"
+            }
+          },
+          {
+            "id": "63c9e96301319ebe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "294db420d62ec4df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "6836b96dbdb67d9b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "待记笔记.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "待记笔记 的大纲"
+            }
+          },
+          {
+            "id": "724f2df091d3cbb7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "f3d7732aa78f7bb4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "源代码管理"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "random-note:开始漫游笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
+      "publish:发布更改": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "i18n:I18N": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:打开Git源代码管理": false
+    }
+  },
+  "active": "f01182002310e6d6",
+  "lastOpenFiles": [
+    "题解/其他/题解：SSLOJ-2025-8-6-T4.小罐跳舞.md",
+    "题解/其他/题解：SSLOJ-2025-6-2-D.序列问题.md",
+    "题解/其他/题解：MX-2025-7S-T1. 最大权值.md",
+    "题解/其他/题解：MX-2025-3S-T1.棋子.md",
+    "题解/其他/2025-8-8A/题解：SSLOJ-2025-8-8-T3.数星星.md",
+    "题解/其他/2025-8-8A/题解：SSLOJ-2025-8-8-T1.序列.md",
+    "题解/其他/2025-8-4A/题解：SSLOJ-2025-8-4-T4.D.md",
+    "题解/其他/2025-8-4A/题解：SSLOJ-2025-8-4-T3.C.md",
+    "题解/其他/2025-8-4A/题解：SSLOJ-2025-8-4-T2.B.md",
+    "题解/其他/2025-8-4A/题解：SSLOJ-2025-8-4-T1.A.md",
+    "题解/洛谷/题解：P11276 第一首歌(待完善).md",
+    "题解/洛谷/题解：P11275 微观戏剧.md",
+    "题解/洛谷/题解：P11217 youyou 的垃圾桶.md",
+    "题解/洛谷/题解：P11059 数字 (Hard Ver).md",
+    "题解/洛谷/题解：P11008 『STA - R7』异或生成序列.md",
+    "题解/洛谷/题解：P2672 推销员.md",
+    "题解/洛谷/题解：P10678 『STA - R6』月.md",
+    "题解/其他/题解：SSLOJ-T493617 猴猴吃香蕉.md",
+    "题面/洛谷题面/P2672 推销员.md",
+    "题面/洛谷题面/P10678『STA - R6』月.md",
+    "题面/洛谷题面/P11008 『STA - R7』异或生成序列.md",
+    "题面/洛谷题面/P11059 数字 (Hard Ver)题解.md",
+    "题面/洛谷题面/P11217 youyou 的垃圾桶.md",
+    "题面/洛谷题面/P11275 微观戏剧.md",
+    "题面/洛谷题面/P11276 第一首歌.md",
+    "题面/MX题面/MX-2025-3S-T1.棋子.md",
+    "学习笔记/信竞学习笔记/未命名",
+    "学习笔记/信竞学习笔记/数学",
+    "题面/SSLOJ题面/2025-8-11A",
+    "题解/其他/2025-8-11A",
+    "题面/SSLOJ题面/2025-8-8A",
+    "题解/其他/2025-8-8A",
+    "题面/SSLOJ题面/2025-8-4A",
+    "题解/其他/2025-8-4A",
+    "题面",
+    "题面/MX题面"
+  ]
+}
