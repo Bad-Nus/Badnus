@@ -1,7 +1,7 @@
 # 题面
 [P11217 youyou 的垃圾桶](/%E9%A2%98%E9%9D%A2/%E6%B4%9B%E8%B0%B7%E9%A2%98%E9%9D%A2/P11217%20youyou%20%E7%9A%84%E5%9E%83%E5%9C%BE%E6%A1%B6.md#p11217-mx-s4-t1yyoi-r2youyou-%E7%9A%84%E5%9E%83%E5%9C%BE%E6%A1%B6)
 
-![[P11217 youyou 的垃圾桶]]
+![[../../题面/洛谷题面/P11217 youyou 的垃圾桶|P11217 youyou 的垃圾桶]]
 # 分析
 > 我们规定:
 > 

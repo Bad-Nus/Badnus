@@ -34,5 +34,7 @@
     "editor:insert-table"
   ],
   "showUnsupportedFiles": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newLinkFormat": "relative",
+  "newFileLocation": "current"
 }
