@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "92f03569f5aa9db2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ffa6c7f1d424742",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.10"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +200,7 @@
               "type": "git-view",
               "state": {},
               "icon": "git-pull-request",
-              "title": "源代码管理"
+              "title": "Source Control"
             }
           }
         ],
@@ -195,6 +213,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -210,18 +229,18 @@
       "i18n:I18N": false,
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:打开Git源代码管理": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "7ed8db729bcd1fa4",
   "lastOpenFiles": [
+    "学习笔记/信竞学习笔记/折半搜索.md",
+    "未命名.md",
     "Syncs/PCL2_CE_Beta_x64.rar",
     "待记笔记 - 副本.md",
     "Syncs/PCL2_CE_Beta_x64 (1).exe",
     "未命名 1.md",
-    "未命名.md",
     "学习笔记/信竞学习笔记/未命名.md",
-    "学习笔记/信竞学习笔记/折半搜索.md",
     "Syncs/geek.exe",
     "题解/SSLOJ/2025-8-13A/题解：SSLOJ-2025-8-13-T1.连通块.md",
     "题解/SSLOJ/2025-8-13A/题解：SSLOJ-2025-8-13-T2.列车调度.md",
@@ -249,7 +268,6 @@
     "test",
     "题面/SSLOJ题面/2025-8-6A",
     "题解/SSLOJ/2025-8-6A",
-    "模板",
-    "题面/SSLOJ题面/2025-8-13A"
+    "模板"
   ]
 }

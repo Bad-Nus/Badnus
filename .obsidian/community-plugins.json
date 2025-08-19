@@ -1,9 +1,10 @@
 [
   "calendar",
   "i18n",
-  "obsidian-mind-map",
   "obsidian42-brat",
   "dataview",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "quick-latex",
+  "obsidian-mind-map"
 ]
