@@ -1,8 +1,8 @@
 {
-  "baseFontSize": 20,
+  "baseFontSize": 23,
   "textFontFamily": "Consolas",
   "baseFontSizeAction": true,
-  "accentColor": "#8a5c95",
+  "accentColor": "#8f5f9b",
   "monospaceFontFamily": "Consolas",
   "cssTheme": "AnuPpuccin",
   "nativeMenus": false,

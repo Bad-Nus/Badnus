@@ -37,5 +37,6 @@
   "promptDelete": false,
   "newLinkFormat": "relative",
   "newFileLocation": "current",
-  "vimMode": false
+  "vimMode": false,
+  "readableLineLength": true
 }
