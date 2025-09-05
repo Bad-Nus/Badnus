@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "45ae8f6a95d2df8a",
+        "id": "7eb1174ee98308ca",
         "type": "tabs",
         "children": [
           {
-            "id": "b4c38a08339cba1a",
+            "id": "fe77192c25276be5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "新标签页"
             }
           }
         ]
@@ -225,10 +221,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4c38a08339cba1a",
+  "active": "fe77192c25276be5",
   "lastOpenFiles": [
     "我的世界/樱花服/地图.md",
     "Pasted image 20250826004630.png",
+    "已命名.md",
     "202508260045.md",
     "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T4.词典.md",
     "我的世界/樱花服",
@@ -254,7 +251,6 @@
     "题面/SSLOJ题面/2025-8-13A/SSLOJ-2025-8-13-T4.没有硝烟的战争.md",
     "题面/SSLOJ题面/2025-8-13A/SSLOJ-2025-8-13-T2.列车调度.md",
     "题面/SSLOJ题面/2025-8-15A/SSLOJ-2025-8-15-T3.购物.md",
-    "题面/SSLOJ题面/2025-8-8A/SSLOJ-2025-8-8-T3.数星星.md",
     "题面/SSLOJ题面/2025-8-18A",
     "记录/题解",
     "题面/SSLOJ题面/2025-8-15A",
