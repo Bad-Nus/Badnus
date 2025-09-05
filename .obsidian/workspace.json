@@ -11,10 +11,14 @@
             "id": "fe77192c25276be5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "模板/题面.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "题面"
             }
           }
         ]
@@ -187,10 +191,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "学习笔记/数学笔记/推理证明.md"
+                "file": "模板/题面.md"
               },
               "icon": "lucide-info",
-              "title": "推理证明的笔记属性"
+              "title": "题面的笔记属性"
             }
           }
         ],
@@ -198,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,9 +228,14 @@
   },
   "active": "fe77192c25276be5",
   "lastOpenFiles": [
+    "仓库主页.md",
+    "模板/（插件）题解.md",
+    "模板/题面.md",
+    "记录/周记/1.md",
+    "待记笔记.md",
+    "已命名.md",
     "我的世界/樱花服/地图.md",
     "Pasted image 20250826004630.png",
-    "已命名.md",
     "202508260045.md",
     "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T4.词典.md",
     "我的世界/樱花服",
@@ -247,12 +257,8 @@
     "题面/SSLOJ题面/2025-8-11A/SSLOJ-2025-8-11-T4.不稳定的导弹系统.md",
     "题面/SSLOJ题面/2025-8-11A/SSLOJ-2025-8-11-T2.出租车.md",
     "题面/SSLOJ题面/2025-8-13A/SSLOJ-2025-8-13-T1.连通块.md",
-    "题面/SSLOJ题面/2025-8-13A/SSLOJ-2025-8-13-T3.简单的玄学.md",
-    "题面/SSLOJ题面/2025-8-13A/SSLOJ-2025-8-13-T4.没有硝烟的战争.md",
-    "题面/SSLOJ题面/2025-8-13A/SSLOJ-2025-8-13-T2.列车调度.md",
-    "题面/SSLOJ题面/2025-8-15A/SSLOJ-2025-8-15-T3.购物.md",
     "题面/SSLOJ题面/2025-8-18A",
-    "记录/题解",
+    "模板/题解",
     "题面/SSLOJ题面/2025-8-15A",
     "学习笔记/数学笔记/未命名.base",
     "单射.png",
