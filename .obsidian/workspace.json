@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我的世界/樱花服/地图.md",
+                "file": "未命名.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "地图"
+              "title": "未命名"
             }
           }
         ]
@@ -198,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -206,6 +206,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -226,9 +227,9 @@
   },
   "active": "b4c38a08339cba1a",
   "lastOpenFiles": [
+    "我的世界/樱花服/地图.md",
     "Pasted image 20250826004630.png",
     "202508260045.md",
-    "我的世界/樱花服/地图.md",
     "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T4.词典.md",
     "我的世界/樱花服",
     "我的世界",
