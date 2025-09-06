@@ -38,5 +38,6 @@
   "newLinkFormat": "relative",
   "newFileLocation": "current",
   "vimMode": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "autoConvertHtml": false
 }

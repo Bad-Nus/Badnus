@@ -1,8 +1,13 @@
 {
   "pluginList": [
+    "Yaozhuwa/easy-typing-obsidian",
     "joeyuping/quick_latex_obsidian"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "Yaozhuwa/easy-typing-obsidian",
+      "version": "latest"
+    },
     {
       "repo": "joeyuping/quick_latex_obsidian",
       "version": "latest"

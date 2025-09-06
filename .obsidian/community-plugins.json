@@ -6,5 +6,9 @@
   "templater-obsidian",
   "obsidian-git",
   "quick-latex",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "obsidian-html-plugin",
+  "editing-toolbar",
+  "easy-typing-obsidian",
+  "tag-wrangler"
 ]
