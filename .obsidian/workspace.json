@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/信竞学习笔记/折半搜索.md",
+                "file": "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T1.A.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "折半搜索"
+              "title": "题解：SSLOJ-2025-8-4-T1.A"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6be50eaf3ba4c617",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/信竞学习笔记/折半搜索.md",
+                "file": "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T1.A.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "折半搜索 的大纲"
+              "title": "题解：SSLOJ-2025-8-4-T1.A 的大纲"
             }
           },
           {
@@ -224,12 +225,16 @@
   },
   "active": "f3d7732aa78f7bb4",
   "lastOpenFiles": [
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T4.D.md",
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T3.C.md",
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T2.B.md",
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T1.A.md",
+    "学习笔记/信竞学习笔记/折半搜索.md",
     "散记.md",
     "首页.html",
     "题解/SSLOJ/2025-8-13A/题解：SSLOJ-2025-8-13-T1.连通块.md",
     "学习笔记/学习笔记总纲.md",
     "学习笔记/信竞学习笔记/字典树优化.md",
-    "学习笔记/信竞学习笔记/折半搜索.md",
     "学习笔记/信竞学习笔记/二分.md",
     "学习笔记/信竞学习笔记/尺取法(待补).md",
     "学习笔记/信竞学习笔记/信竞数学/最大公约数&最小公倍数(待补).md",
@@ -247,9 +252,6 @@
     "学习笔记/数学笔记/行列式.md",
     "学习笔记/数学笔记/向量.md",
     "学习笔记/数学笔记/期望.md",
-    "学习笔记/数学笔记/推理证明.md",
-    "学习笔记/数学笔记/统计.md",
-    "学习笔记/数学笔记/数列.md",
     "未命名",
     "资料/数学/maths.pdf",
     "待肝项",
