@@ -11,17 +11,30 @@
             "id": "b8628a3141293cf8",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "资料/信竞/NOI大纲.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "NOI大纲"
+            }
+          },
+          {
+            "id": "6ad5c575013c236d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "生物必修二.md",
-                "mode": "source",
-                "source": false
+                "file": "学习笔记/信竞学习笔记/初赛/初赛知识点散记.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "生物必修二"
+              "title": "初赛知识点散记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6be50eaf3ba4c617",
@@ -157,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "资料/数学/数学笔记全.md",
+                "file": "学习笔记/信竞学习笔记/初赛/初赛知识点散记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "数学笔记全 的大纲"
+              "title": "初赛知识点散记 的大纲"
             }
           },
           {
@@ -223,13 +235,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8628a3141293cf8",
+  "active": "6ad5c575013c236d",
   "lastOpenFiles": [
-    "物理.md",
-    "首页.html",
+    "学习笔记/信竞学习笔记/初赛/资料1.md",
+    "学习笔记/信竞学习笔记/初赛/自己散记.md",
+    "学习笔记/信竞学习笔记/初赛/树.md",
+    "学习笔记/信竞学习笔记/初赛/Linux常用指令.md",
+    "学习笔记/信竞学习笔记/初赛/初赛知识点散记.md",
+    "学习笔记/信竞学习笔记/图论/图论基础.md",
+    "资料/信竞/NOI大纲.pdf",
     "README.md",
-    "鲁迅夹烟材料.md",
+    "物理.md",
+    "待肝项/待肝数据库.md",
+    "待肝项/待肝笔记库.md",
+    "待肝项/待肝笔记.md",
+    "首页.html",
+    "学习笔记/Latex学习笔记/Latex符号大全.md",
+    "资料/信竞",
+    "学习笔记/信竞学习笔记/初赛/NOI_Syllabus_Edition_2025.pdf.crdownload",
+    "学习笔记/信竞学习笔记/初赛",
+    "散记.md",
     "生物必修二.md",
+    "鲁迅夹烟材料.md",
     "高中生物必修二.md",
     "资料/数学/数学笔记全.md",
     "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T1.A.md",
@@ -241,26 +268,12 @@
     "题解/SSLOJ/2025-8-6A/题解：SSLOJ-2025-8-6-T1.和谐关系.md",
     "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T3.C.md",
     "题面/SSLOJ题面/2025-8-4A/SSLOJ-2025-8-4-T1.A.md",
-    "学习笔记/信竞学习笔记/折半搜索.md",
-    "散记.md",
-    "物理2.md",
-    "学习笔记/Latex学习笔记/Latex符号大全.md",
-    "学习笔记/信竞学习笔记/信竞数学/最大公约数&最小公倍数(待补).md",
     "学习笔记/Latex学习笔记",
-    "学习笔记/信竞学习笔记/信竞数学/组合数.md",
-    "学习笔记/信竞学习笔记/信竞数学/线性代数.md",
-    "学习笔记/信竞学习笔记/信竞数学/拓展欧几里得算法.md",
-    "学习笔记/信竞学习笔记/信竞数学/判断质数.md",
-    "学习笔记/信竞学习笔记/信竞数学/快速幂.md",
     "未命名",
     "资料/数学/maths.pdf",
     "待肝项",
     "未命名.html",
     "Pasted image 20250826004630.png",
-    "我的世界/樱花服",
-    "我的世界",
-    "题面/SSLOJ题面/2025-8-18A",
-    "模板/题解",
     "单射.png"
   ]
 }
