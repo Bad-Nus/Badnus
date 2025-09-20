@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/信竞学习笔记/初赛/初赛知识点散记.md",
+                "file": "学习笔记/信竞学习笔记/初赛/自己散记.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "初赛知识点散记"
+              "title": "自己散记"
             }
           }
         ],
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/信竞学习笔记/初赛/初赛知识点散记.md",
+                "file": "学习笔记/信竞学习笔记/初赛/自己散记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "初赛知识点散记 的大纲"
+              "title": "自己散记 的大纲"
             }
           },
           {
@@ -215,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,11 +238,11 @@
   },
   "active": "6ad5c575013c236d",
   "lastOpenFiles": [
-    "学习笔记/信竞学习笔记/初赛/资料1.md",
-    "学习笔记/信竞学习笔记/初赛/自己散记.md",
     "学习笔记/信竞学习笔记/初赛/树.md",
+    "学习笔记/信竞学习笔记/初赛/初赛知识点瞎记.md",
+    "学习笔记/信竞学习笔记/初赛/自己散记.md",
     "学习笔记/信竞学习笔记/初赛/Linux常用指令.md",
-    "学习笔记/信竞学习笔记/初赛/初赛知识点散记.md",
+    "学习笔记/信竞学习笔记/初赛/资料1.md",
     "学习笔记/信竞学习笔记/图论/图论基础.md",
     "资料/信竞/NOI大纲.pdf",
     "README.md",
