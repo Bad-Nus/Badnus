@@ -4,7 +4,8 @@
   "baseFontSizeAction": true,
   "accentColor": "#8f5f9b",
   "monospaceFontFamily": "Consolas",
-  "cssTheme": "",
+  "cssTheme": "Dracula for Obsidian",
   "nativeMenus": false,
-  "interfaceFontFamily": "Consolas"
+  "interfaceFontFamily": "Consolas",
+  "theme": "system"
 }
