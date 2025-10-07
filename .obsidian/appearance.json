@@ -2,10 +2,10 @@
   "baseFontSize": 11,
   "textFontFamily": "Consolas",
   "baseFontSizeAction": true,
-  "accentColor": "#8f5f9b",
+  "accentColor": "",
   "monospaceFontFamily": "Consolas",
   "cssTheme": "Dracula for Obsidian",
   "nativeMenus": false,
   "interfaceFontFamily": "Consolas",
-  "theme": "system"
+  "theme": "moonstone"
 }

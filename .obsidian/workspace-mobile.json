@@ -13,30 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生物必修二.md",
+                "file": "ai数学散记中版.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "生物必修二"
+              "title": "ai数学散记中版"
             }
           },
           {
-            "id": "9ea7452c447b0358",
+            "id": "2ce83b179b5175ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学手写散记.md",
-                "mode": "preview",
-                "source": true
+                "file": "学习笔记/数学笔记/映射.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "数学手写散记"
+              "title": "映射"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +159,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "数学手写散记.md",
+            "file": "ai数学散记中版.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -209,10 +208,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ea7452c447b0358",
+  "active": "f6d746312609635f",
   "lastOpenFiles": [
+    "学习笔记/数学笔记/映射.md",
+    "ai数学散记中版.md",
     "生物必修二.md",
+    "散记.md",
+    "首页.html",
+    "物理.md",
+    "README.md",
+    "ai数学.md",
     "数学手写散记.md",
+    "未命名.md",
+    "ai数学手写散记.md",
     "学习笔记/数学笔记/函数.md",
     "学习笔记/数学笔记/概率.md",
     "学习笔记/数学笔记/复数.md",
@@ -221,26 +229,17 @@
     "学习笔记/数学笔记/二项式定理.md",
     "学习笔记/数学笔记/导数.md",
     "学习笔记/数学笔记/不等式.md",
-    "学习笔记/数学笔记/映射.md",
     "学习笔记/数学笔记/集合.md",
     "学习笔记/信竞学习笔记/初赛/自己散记.md",
     "学习笔记/信竞学习笔记/初赛/tester1.md",
     "学习笔记/信竞学习笔记/初赛/资料1.md",
     "学习笔记/信竞学习笔记/初赛/初赛知识点瞎记.md",
-    "物理.md",
     "学习笔记/信竞学习笔记/初赛/Linux常用指令.md",
     "学习笔记/信竞学习笔记/初赛/树.md",
     "学习笔记/信竞学习笔记/初赛",
     "资料/信竞/NOI大纲.pdf",
     "资料/信竞",
     "生物2.md",
-    "生物1.md",
-    "生物12.md",
-    "学习笔记/学习笔记总纲.md",
-    "学习笔记/数学笔记/行列式.md",
-    "鲁迅夹烟材料.md",
-    "资料/数学/数学笔记全.md",
-    "首页.html",
     "待肝项",
     "锄地/崩铁",
     "锄地",
