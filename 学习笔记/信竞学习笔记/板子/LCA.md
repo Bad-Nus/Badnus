@@ -2,6 +2,21 @@
 tags:
   - 板子
 ---
+# 裸板
+```cpp
+void dfs(int u,int f){
+    dep[u]=dep[fa[u][0]=f]+1;
+    rep(i,1,L-1)fa[u][i]=fa[fa[u][i-1]][i-1];
+    for(int i=pre[u];i;i=nxt[i])if(h[i]!=f)dfs(h[i],u);
+}
+int LCA(int x,int y){
+    if(dep[x]<dep[y])swap(x,y);
+    per(i,L-1,0)if(dep[fa[x][i]]>=dep[y])x=fa[x][i];
+    if(x==y)return x;
+    per(i,L-1,0)if(fa[x][i]!=fa[y][i])x=fa[x][i],y=fa[y][i];
+    return fa[x][0];
+}
+```
 # LCA 倍增裸板
 [例题](https://www.luogu.com.cn/problem/P3379)
 ```cpp

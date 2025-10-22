@@ -2,6 +2,19 @@
 tags:
   - 板子
 ---
+# 裸板
+```cpp
+void dijkstra(){
+    memset(dist,0x3f,sizeof dist);
+    q.push({dist[S]=0,S});
+    while(q.size()){
+        int u=q.top().u;q.pop();
+        if(vis[u])continue;
+        vis[u]=1;
+        for(int i=pre[u];i;i=nxt[i])if(dist[h[i]]>dist[u]+w[i])q.push({dist[h[i]]=dist[u]+w[i],h[i]});
+    }
+}
+```
 # Dijkstra 堆优化
 [标准例题](https://www.luogu.com.cn/problem/P4779)
 

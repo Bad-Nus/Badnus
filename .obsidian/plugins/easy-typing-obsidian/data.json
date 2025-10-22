@@ -2,7 +2,7 @@
   "Tabout": true,
   "SelectionEnhance": true,
   "IntrinsicSymbolPairs": true,
-  "BaseObEditEnhance": true,
+  "BaseObEditEnhance": false,
   "FW2HWEnhance": true,
   "BetterCodeEdit": true,
   "BetterBackspace": true,

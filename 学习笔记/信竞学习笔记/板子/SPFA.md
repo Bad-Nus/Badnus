@@ -2,6 +2,25 @@
 tags:
   - 板子
 ---
+# 裸板
+```cpp
+bool spfa(int s){
+    memset(dist,0x3f,sizeof dist);
+    dist[s]=0;
+    q.push(s);
+    while(q.size()){
+        int u=q.front();
+        q.pop(),vis[u]=0;
+        for(int i=pre[u];i;i=nxt[i])if(dist[h[i]]>dist[u]+w[i]){
+            dist[h[i]]=dist[u]+w[i];
+            cnt[h[i]]=cnt[u]+1;
+            if(cnt[h[i]]>=n)return 0;
+            if(!vis[h[i]])vis[h[i]]=1,q.push(h[i]);
+        }
+    }
+    return 1;
+}
+```
 # SPFA
 [弱化例题](https://www.luogu.com.cn/problem/P3371)
 

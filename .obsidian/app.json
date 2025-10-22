@@ -39,5 +39,8 @@
   "newFileLocation": "current",
   "vimMode": false,
   "readableLineLength": true,
-  "autoConvertHtml": false
+  "autoConvertHtml": false,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "focusNewTab": true
 }

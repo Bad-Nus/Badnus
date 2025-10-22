@@ -2,6 +2,23 @@
 tags:
   - 板子
 ---
+# 裸板
+```cpp
+void gather(){++sz[id[sta[tp]]=cnt],insta[sta[tp--]]=0;}
+void tarjan(int u){
+    low[u]=dfn[u]=++tot,sta[++tp]=u,insta[u]=1;
+    for(int i=pre[u];i;i=nxt[i]){
+        int to=h[i];
+        if(!dfn[to])tarjan(to),low[u]=min(low[u],low[to]);
+        else if(insta[to])low[u]=min(low[u],dfn[to]);
+    }
+    if(dfn[u]==low[u]){
+		++cnt;
+        while(sta[tp]!=u)gather();
+        gather();
+    }
+}
+```
 # Tarjan
 [例题](https://www.luogu.com.cn/problem/P2863)
 ```cpp
