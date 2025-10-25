@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/信竞学习/板子/珂朵莉.md",
+                "file": "学习/信竞学习/贪心.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "珂朵莉"
-            }
-          },
-          {
-            "id": "1523f9b9b3cfcd4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/信竞学习/板子/快读.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "快读"
+              "title": "贪心"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,44 +223,44 @@
       "obsidian-git:打开Git源代码管理": false
     }
   },
-  "active": "1523f9b9b3cfcd4d",
+  "active": "74e7b1faeda60630",
   "lastOpenFiles": [
-    "学习/信竞学习/板子/珂朵莉.md",
-    "学习/信竞学习/板子/快读.md",
-    "学习/信竞学习/板子/并查集.md",
-    "学习/数学/高中数学笔记/ai数学散记中版.md",
-    "待肝项/待肝笔记.md",
-    "待肝项/待肝笔记库.md",
-    "待肝项/待肝数据库.md",
-    "README.md",
-    "学习笔记总纲.md",
-    "学习/信竞学习/板子/Trie.md",
-    "学习/散记.md",
-    "资料/数学/maths.md",
+    "fib.svg",
+    "学习/信竞学习/板子/判质数.md",
+    "学习/信竞学习/贪心.md",
+    "题解/SSLOJ/2025-8-8A/题解：SSLOJ-2025-8-8-T3.数星星.md",
+    "题解/SSLOJ/2025-8-8A/题解：SSLOJ-2025-8-8-T1.序列.md",
+    "题解/SSLOJ/2025-8-6A/题解：SSLOJ-2025-8-6-T4.小罐跳舞.md",
+    "题解/SSLOJ/2025-8-6A/题解：SSLOJ-2025-8-6-T3.森林冰火人.md",
+    "题解/SSLOJ/2025-8-6A/题解：SSLOJ-2025-8-6-T2.小P别急.md",
+    "题解/SSLOJ/2025-8-6A/题解：SSLOJ-2025-8-6-T1.和谐关系.md",
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T3.C.md",
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T4.D.md",
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T2.B.md",
+    "题解/SSLOJ/2025-8-4A/题解：SSLOJ-2025-8-4-T1.A.md",
+    "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T4.词典.md",
+    "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T3.火车.md",
+    "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T2.灯.md",
+    "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T1.prefix.md",
+    "题解/SSLOJ/2025-10-7A/题解：SSLOJ-2025-10-7-T1.最大生成树.md",
+    "学习/信竞学习/板子/背包.md",
+    "学习/信竞学习/板子/().md",
+    "学习/信竞学习/板子/LCA.md",
+    "学习/信竞学习/板子/未命名",
+    "学习/信竞学习/板子/KMP.md",
+    "学习/信竞学习/板子/Gcd+Exgcd.md",
+    "学习/信竞学习/板子/BKDR哈希.md",
+    "学习/信竞学习/板子/线段树.md",
+    "学习/信竞学习/板子/逆.md",
     "资料/数学/maths.pdf",
-    "资料/数学/数学笔记全.md",
     "资料/信竞/NOI大纲.pdf",
     "Syncs/Ext/7z.rar",
     "Syncs/Ext/7z22.01-zstd-x64.rar",
     "Syncs/Ext/7z22.01-zstd-x64.exe",
-    "学习/信竞学习/板子/逆.md",
-    "学习/Latex/Latex符号大全.md",
     "游戏",
-    "学习/物理/物理笔记.md",
     "学习/数学",
     "学习笔记/数学/数学笔记/所有",
     "Syncs/Ext/geek.rar",
-    "Syncs/Ext/Plain Craft Launcher 2.rar",
-    "Syncs/Ext/Notepad++/updater/README.md",
-    "Syncs/Ext/updater/README.md",
-    "鲁迅夹烟材料.md",
-    "散记.md",
-    "学习/信竞学习/初赛/自己散记.md",
-    "学习/信竞学习/板子/Tarjan.md",
-    "学习/信竞学习/板子/SPFA.md",
-    "学习/信竞学习/板子/LCA.md",
-    "学习/信竞学习/板子/KMP.md",
-    "学习/信竞学习/板子/Gcd+Exgcd.md",
     "Pasted image 20250826004630.png",
     "单射.png"
   ]
