@@ -2,6 +2,7 @@
 tags:
   - 板子
 ---
+
 # 裸板
 ```cpp
 bool bfs(){

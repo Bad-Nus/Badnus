@@ -5,6 +5,11 @@ tags:
 # 裸板
 
 ```cpp
+int getnum(char x){
+    if(isupper(x))return x-'A';
+    else if(islower(x))return x-'a'+26;
+    else return x-48+52;
+}
 struct trie{
 	int nex[N][65],cnt[N],idx;
 	void insert(char* s){
