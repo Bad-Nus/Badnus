@@ -35,7 +35,7 @@
   ],
   "showUnsupportedFiles": true,
   "promptDelete": false,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "newFileLocation": "current",
   "vimMode": false,
   "readableLineLength": true,
