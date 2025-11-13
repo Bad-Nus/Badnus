@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6be50eaf3ba4c617",
@@ -251,7 +252,7 @@
       "obsidian-git:打开Git源代码管理": false
     }
   },
-  "active": "34552f090052474c",
+  "active": "f3d7732aa78f7bb4",
   "lastOpenFiles": [
     "学习/散记.md",
     "学习/学习企划.md",
