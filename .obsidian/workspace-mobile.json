@@ -11,14 +11,10 @@
             "id": "f6d746312609635f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/数学笔记/映射.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "映射"
+              "title": "新标签页"
             }
           },
           {
@@ -71,7 +67,7 @@
             "sortOrder": "alphabetical"
           },
           "icon": "lucide-search",
-          "title": "Search"
+          "title": "搜索"
         }
       },
       {
@@ -193,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:打开Git源代码管理": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -204,8 +201,7 @@
       "audio-recorder:开始/结束录音": false,
       "workspaces:管理工作区布局": false,
       "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "f6d746312609635f",
