@@ -20,8 +20,8 @@ $$A=\{a_1,a_2,\ldots,a_n\},B=\{a_{k_1},a_{k_2},\ldots,a_{k_m}\},其中 \forall i
 
 推广至 $K$ 维，有
 
-- （ $n$ 维）偏序关系： $(i\lt j)\wedge (\forall k\in[1,K],a[k]_i\lt a[k]_j)$
-- （ $n$ 维）逆偏序关系： $(i\lt j)\wedge (\forall k\in[1,K],a[k]_i\gt a[k]_j)$
+- （ $K$ 维）偏序关系： $(i\lt j)\wedge (\forall k\in[1,K],a[k]_i\lt a[k]_j)$
+- （ $K$ 维）逆偏序关系： $(i\lt j)\wedge (\forall k\in[1,K],a[k]_i\gt a[k]_j)$
 
 LIS 本质是一维偏序问题，可以推广到 $K$ 维偏序问题
 # 解法
@@ -72,7 +72,7 @@ int main(){
 
 二分基于贪心思想
 
-我们设 $f_i$ 为长度为 $i$ 的 LIS 末尾元素的最小值，我们发现 $f$ 单调递增。且 $f_i$ 越小必然越优，由此我们可以贪心地维护 $f_i$ 。
+我们设 $f_i$ 为长度为 $i$ 的 LIS 末尾元素的最小值，我们发现 $f$ 单调递增，且 $f_i$ 越小必然越优，由此我们可以贪心地维护 $f_i$ 。
 
 那么对于每一位 $a_j$ 考虑贡献：
 
@@ -80,7 +80,7 @@ int main(){
 - 若 $f_m \ge a_j$ ，那么考虑维护 $f_i$ 的最小，我们设 $f_k$ 为最小的满足 $f_i\ge a_j$ 的位置，那么：
 	- $f_{1\ldots k-1}$ 不满足 $f_i \ge a_j$ ，不更新
 	- $f_{k+1\ldots m}$ 是由 $f_k$ 转移而来，相当于 LIS 的第 $k$ 位最优已经是 $a_j$ 。如果 $a_j$ 参与构成 $f_{k+1\ldots m}$ ，那么 $a_j$ 必然被多次使用，证明显然；若不参与构成又没有考虑的必要。
-	- 综上令 $f_k=a_j$ 即可
+- 综上令 $f_k=a_j$ 即可
 
 复杂度 $O(n\log n)$
 ```cpp
@@ -181,7 +181,7 @@ $$A=\{p_i\in R^2\vert p_i=(x,y),i\in[1,n]\}, B=\{p_{k_1},p_{k_2},\ldots,p_{k_m}\
 
 为了排除这一影响，我们对相等的 $x$ 按 $y$ 递减排序即可，这样 $x_k=x_j$ 的部分就恒有 $y_k\ge y_j$ ，不再对顺序对的条件成立性产生影响。
 
-如此我们便转化为一维偏序
+如此我们便可转化为一维偏序。
 ### 树状数组
 
 用树状数组维护前缀最大优化
@@ -281,11 +281,304 @@ int main(){
 }
 ```
 
-## 三维偏序
-
 ## K 维偏序
 
 对 $k$ 维偏序问题，我们有如下的解法及其复杂度
 
+| 方法         | 时间复杂度                         | 空间复杂度                                                                   |
+| ---------- | ----------------------------- | ----------------------------------------------------------------------- |
+| 暴力         | $O(n^{2})$                    | $O(n)$                                                                  |
+| KD 树       | $O(n^{\frac{2k-1}{k}})$       | $O(n)$                                                                  |
+| 树套树        | $O(n\log^{k-1}{n})$           | $O(n\log^{k-1}{n})$                                                     |
+| CDQ 分治     | $O(n\log^{k-1}{n})$           | $O(n)$                                                                  |
+| Bitset 黑科技 | $O(k\frac{1}{\omega}{n^{2}})$ | $O(k\frac{1}{\omega}{n^{\frac{3}{2}}})\sim O(k\frac{1}{\omega}{n^{2}})$ |
 
+由于 $\log^{k-1}n$ 随 $k$ 增加迅速，当 $k\ge 4$ 时适合采用 bitset ，跑的飞快。
+### 暴力
+QwQ
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+#define rep(i,x,y) for(auto i=x;i<=y;++i)
+const int N=1e5+5,M=10;
+int n,m,a[N][M],ans,cnt[N],fl;
+int main() {
+    n=read(),m=read();
+    rep(i,1,n)rep(j,1,m)a[i][j]=read();
+    rep(i,1,n){
+        rep(j,1,i-1){
+            fl=1;
+            rep(k,1,m)if(a[i][k]<a[j][k])fl=0;
+            ans+=fl;
+        }
+        ++cnt[ans],ans=0;
+    }
+    rep(i,1,n)wrt(cnt[i]),pc('\n');
+    return 0;
+}
+```
+### CDQ
 
+搜集自 [SkyWave](https://www.luogu.me/article/say1s590) 的原创模板
+
+```cpp
+template <typename Tp>
+struct kDPO<Tp, 0> {
+	const vector<vector<Tp>> &arr;
+	int k;
+
+	kDPO(const vector<vector<Tp>> &arr_) : arr(arr_) {
+		k = arr[0].size();
+	}
+
+	vector<int> a, cnt, ans;
+	vector<vector<int>> b;
+	vector<int> hero;
+	void cdq(int l, int r) {
+		if (l == r) {
+			return ;
+		}
+
+		int mid = (l + r) >> 1;
+		cdq(l, mid);
+		cdq(mid + 1, r);
+
+		int i = l, j = mid + 1;
+		b[0].clear();
+		while (i <= mid || j <= r) {
+			if (j > r || (i <= mid && arr[a[i]][1] <= arr[a[j]][1])) {
+				b[0].push_back(a[i]);
+				++i;
+			} else {
+				b[0].push_back(a[j] | 1 << 31);
+				++j;
+			}
+		}
+		for (int i = 0; i < r - l + 1; ++i) {
+			a[i + l] = b[0][i] & 2147483647;
+		}
+
+		cdq(0, r - l, 0);
+	}
+	void cdq(int l, int r, int d) {
+		if (l == r) {
+			return ;
+		}
+
+		int mid = (l + r) >> 1;
+		cdq(l, mid, d);
+		cdq(mid + 1, r, d);
+
+		int i = l, j = mid + 1;
+		hero.clear();
+		if (d == k - 3) {
+			int sum = 0;
+			while (i <= mid || j <= r) {
+				if (j > r || (i <= mid && arr[b[d][i] & 2147483647][k - 1] <= arr[b[d][j] & 2147483647][k - 1])) {
+					sum += b[d][i] >> 31 ? 0 : cnt[b[d][i] & 2147483647];
+					hero.emplace_back(b[d][i]);
+					++i;
+				} else {
+					ans[b[d][j] & 2147483647] += b[d][j] >> 31 ? sum : 0;
+					hero.emplace_back(b[d][j]);
+					++j;
+				}
+			}
+			memcpy(b[d].data() + l, hero.data(), sizeof(int) * (r - l + 1));
+			return ;
+		}
+		b[d + 1].clear();
+		while (i <= mid || j <= r) {
+			if (j > r || (i <= mid && arr[b[d][i] & 2147483647][d + 2] <= arr[b[d][j] & 2147483647][d + 2])) {
+				if (!(b[d][i] >> 31)) {
+					b[d + 1].push_back(b[d][i]);
+				}
+				hero.emplace_back(b[d][i]);
+				++i;
+			} else {
+				if (b[d][j] >> 31) {
+					b[d + 1].push_back(b[d][j]);
+				}
+				hero.emplace_back(b[d][j]);
+				++j;
+			}
+		}
+		memcpy(b[d].data() + l, hero.data(), sizeof(int) * (r - l + 1));
+
+		if (!b[d + 1].empty()) {
+			cdq(0, (int)b[d + 1].size() - 1, d + 1);
+		}
+	}
+
+	vector<int> operator () () {
+		int n = (int)arr.size();
+		if (k == 1) {
+			vector<array<Tp, 1>> a(n);
+			for (int i = 0; i < n; ++i) {
+				a[i][0] = arr[i][0];
+			}
+			return kDPO<Tp, 1>(a)();
+		}
+		if (k == 2) {
+			vector<array<Tp, 2>> a(n);
+			for (int i = 0; i < n; ++i) {
+				a[i][0] = arr[i][0];
+				a[i][1] = arr[i][1];
+			}
+			return kDPO<Tp, 2>(a)();
+		}
+
+		vector<int> ord(n);
+		iota(ord.begin(), ord.end(), 0);
+		sort(ord.begin(), ord.end(), [&](int x, int y) {
+			return arr[x] < arr[y];
+		});
+
+		vector<pair<int, int>> equa;
+		equa.reserve(n);
+		cnt.resize(n);
+		for (int i = 0; i < n; ) {
+			int j = i + 1;
+			for ( ; j < n && arr[ord[j]] == arr[ord[i]]; ++j) {
+				equa.emplace_back(ord[j], ord[i]);
+			}
+
+			a.emplace_back(ord[i]);
+			cnt[ord[i]] = j - i;
+
+			i = j;
+		}
+		ans.resize(n);
+		hero.reserve(n);
+		b.resize(k - 2);
+		for (vector<int> &i : b) {
+			i.reserve(n);
+		}
+
+		cdq(0, (int)a.size() - 1);
+
+		for (int i = 0; i < n; ++i) {
+			ans[i] += cnt[i] - 1;
+		}
+		for (pair<int, int> i : equa) {
+			ans[i.first] = ans[i.second];
+		}
+		return ans;
+	}
+};
+```
+
+### Bitset
+
+#### Bitset 1
+
+搜集自 [_Wallace_](https://www.cnblogs.com/-Wallace-/p/bit-parti-ord.html) 的转载
+
+```cpp
+/*
+ * Author : _Wallace_
+ * Source : https://www.cnblogs.com/-Wallace-/
+ * Problem : bitset 求解较高维偏序
+ */
+
+// rank[k][v] 表示 k 维中值为 v 的点的编号 
+for (int k = 0; k < K; k++)
+	for (int i = 1; i * b <= n; i++)
+		for (int j = 1; j <= i * b; j++)
+			dat[k][i].set(rank[k][j]); // 分块预处理 
+
+for (int i = 1; i <= n; i++) {
+	bitset<N> ans, tmp;
+	ans.set(); // 一开始设为全 1（按位与操作）
+	for (int k = 0; k < K; k++) {
+		tmp.reset(); // 每一维都要重置 
+		int p = point[k][i] / b; // 计算整块的范围 
+		tmp |= dat[k][p]; // 整块取现成 
+		for (int j = p * b + 1; j <= point[k][i]; j++)
+			tmp.set(rank[k][j]); // 暴力扫散块 
+		ans &= tmp; // 对每一维按位与 
+	}
+	cout << ans.count() - 1 << endl; // 统计答案 
+}
+```
+
+#### Bitset 2
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+#define MAX 45000
+inline int read()
+{
+	int x=0,t=1;char ch=getchar();
+	while((ch<'0'||ch>'9')&&ch!='-')ch=getchar();
+	if(ch=='-')t=-1,ch=getchar();
+	while(ch<='9'&&ch>='0')x=x*10+ch-48,ch=getchar();
+	return x*t;
+}
+int n,blk;
+bitset<45000> bs[15][250];
+pair<int,int> val[15][MAX];
+int bl[MAX],bll[MAX],blr[MAX];
+int K,num;
+long long Ans;
+int f[15][MAX];
+int find(int k,int x)
+{
+	int l=1,r=n,ans=0;
+	while(l<=r)
+	{
+		int mid=(l+r)>>1;
+		if(val[k][mid].first<=x)ans=x,l=mid+1;
+		else r=mid-1;
+	}
+	return ans;
+}
+inline bitset<MAX> getbst(int p,int x)
+{
+	bitset<MAX> ans;ans.reset();
+	int pp=find(p,x);
+	if(pp<=0)return ans;
+	int pre=(pp-1)/blk;
+	int st=pre*blk+1;
+	ans=bs[p][pre];
+	for(int i=st;i<=pp;++i)ans.set(val[p][i].second);
+	return ans;
+}
+void Solve()
+{
+	bitset<MAX> ans;ans.reset();
+	for(int i=1;i<=n;++i)
+	{
+		ans.set();
+		for(int j=1;j<=K;++j)
+			ans&=getbst(j,f[j][i]);
+		Ans+=ans.count()-1;
+	}
+}
+int main()
+{
+	freopen("partial_order_plus.in","r",stdin);
+	freopen("partial_order_plus.out","w",stdout);
+	n=read();blk=sqrt(n);K=read()+1;
+	for(int i=1;i<=n;++i)val[1][i]=make_pair(f[1][i]=i,i);
+	for(int j=2;j<=K;++j)
+		for(int i=1;i<=n;++i)
+			val[j][i]=make_pair(f[j][i]=read(),i);
+	for(int i=1;i<=K;++i)sort(&val[i][1],&val[i][n+1]);
+	for(int i=1;i<=n;++i)
+		bl[i]=(i-1)/blk+1;num=bl[n];
+	for(int i=1;i<=num;++i)
+		bll[i]=(i-1)*blk+1,blr[i]=i*blk;blr[num]=n;
+	for(int j=1;j<=K;++j)
+		for(int i=1;i<=num;++i)
+		{
+			bs[j][i]=bs[j][i-1];
+			for(int k=bll[i];k<=blr[i];++k)
+				bs[j][i][val[j][k].second]=1;
+		}
+	Solve();
+	printf("%lld\n",Ans);
+	return 0;
+}
+```
