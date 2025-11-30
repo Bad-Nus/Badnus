@@ -2,7 +2,7 @@
 tags:
   - 板子
 ---
-.u# 裸板
+# 裸板
 ```cpp
 void dijkstra(){
     memset(dist,0x3f,sizeof dist);
