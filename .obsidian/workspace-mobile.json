@@ -11,27 +11,46 @@
             "id": "f6d746312609635f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "2ce83b179b5175ca",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/数学笔记/映射.md",
+                "file": "学习/数学/高中数学笔记/ai数学散记中版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "映射"
+              "title": "ai数学散记中版"
+            }
+          },
+          {
+            "id": "c8a9f1cbd2ba86ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/信竞算法/数据结构/线段树/线段树.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "线段树"
+            }
+          },
+          {
+            "id": "a0792112b9297c10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/物理/物理笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "物理笔记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -59,7 +78,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#学习笔记",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -82,7 +101,7 @@
             "searchQuery": ""
           },
           "icon": "lucide-tags",
-          "title": "Tags"
+          "title": "标签"
         }
       },
       {
@@ -92,7 +111,7 @@
           "type": "bookmarks",
           "state": {},
           "icon": "lucide-bookmark",
-          "title": "Bookmarks"
+          "title": "书签"
         }
       },
       {
@@ -106,7 +125,7 @@
             "searchQuery": ""
           },
           "icon": "lucide-archive",
-          "title": "All properties"
+          "title": "添加笔记属性"
         }
       }
     ],
@@ -155,7 +174,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ai数学散记中版.md",
+            "file": "学习/信竞算法/数据结构/线段树/线段树.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -204,43 +223,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f6d746312609635f",
+  "active": "c8a9f1cbd2ba86ef",
   "lastOpenFiles": [
+    "学习/数学/高中数学笔记/ai数学散记中版.md",
+    "README.md",
+    "学习笔记总纲.md",
+    "学习/信竞算法/数据结构/线段树/线段树.md",
+    "学习/散记.md",
+    "学习/生物/生物必修二.md",
+    "学习/物理/物理笔记.md",
+    "学习/信竞算法/数据结构/字典树/字典树优化.md",
+    "学习/信竞算法/数据结构/树状数组/树状数组.md",
+    "学习/信竞算法/数据结构/珂朵莉树/珂朵莉树.md",
+    "学习/数学/数学笔记/三角函数.md",
+    "学习/信竞算法/搜索/折半搜索.md",
+    "题解/SSLOJ/2025-8-18A/题解：SSLOJ-2025-8-18-T2.灯.md",
+    "学习/信竞算法/搜索/双向.md",
+    "资料/信竞/NOI大纲.pdf",
+    "资料/数学/数学笔记全.md",
+    "资料/数学/maths.pdf",
+    "资料/数学/maths.md",
+    "学习/信竞算法/数据结构/线段树/线段树基础.md",
+    "学习/踩坑点.md",
+    "学习/数学/数学笔记/函数.md",
+    "学习/数学/数学笔记/集合.md",
+    "学习/数学/数学笔记/映射.md",
     "学习笔记/数学笔记/行列式.md",
     "学习笔记/数学笔记/推理证明.md",
     "学习笔记/数学笔记/向量.md",
     "ai数学散记中版.md",
     "题解/SSLOJ/2025-10-7A/题解：SSLOJ-2025-10-7-T2.红黑树.md",
-    "题解/SSLOJ/2025-10-7A/题解：SSLOJ-2025-10-7-T1.最大生成树.md",
-    "题解/SSLOJ/2025-10-7A/题解：SSLOJ-2025-10-7-T4.种树.md",
-    "题解/SSLOJ/2025-10-7A/题解：SSLOJ-2025-10-7-T3.校门外的树.md",
     "题解/SSLOJ/2025-10-7A",
-    "题面/SSLOJ题面/2025-10-7A/SSLOJ-2025-10-7-T1.最大生成树.md",
-    "题面/SSLOJ题面/2025-10-7A/SSLOJ-2025-10-7-T4.种树.md",
-    "题面/SSLOJ题面/2025-10-7A/SSLOJ-2025-10-7-T3.校门外的树.md",
-    "题面/SSLOJ题面/2025-10-7A/SSLOJ-2025-10-7-T2.红黑树.md",
     "题面/SSLOJ题面/2025-10-7A",
-    "学习笔记/散记.md",
-    "学习笔记/数学笔记/映射.md",
-    "生物必修二.md",
-    "散记.md",
     "首页.html",
-    "物理.md",
-    "README.md",
-    "ai数学.md",
-    "数学手写散记.md",
-    "未命名.md",
-    "ai数学手写散记.md",
-    "学习笔记/数学笔记/函数.md",
-    "学习笔记/数学笔记/概率.md",
-    "学习笔记/数学笔记/复数.md",
-    "学习笔记/数学笔记/放缩.md",
     "学习笔记/信竞学习笔记/初赛",
-    "资料/信竞/NOI大纲.pdf",
     "资料/信竞",
     "待肝项",
     "锄地/崩铁",
-    "锄地",
-    "Syncs/tampermonkey-backup-firefox-2025-08-07T02-22-46-958Z.zip"
+    "锄地"
   ]
 }
