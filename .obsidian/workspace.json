@@ -8,18 +8,40 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6e3e181cbc1a94bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/数学/数学笔记/杂项/直线系.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "直线系"
+            },
+            "group": "2be224da2ddf51bc"
+          }
+        ]
+      },
+      {
+        "id": "af074471b316cb6a",
+        "type": "tabs",
+        "children": [
+          {
             "id": "c38fb104c8d030fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/信竞算法/数学/组合数.md",
-                "mode": "source",
+                "file": "学习/数学/数学笔记/杂项/直线系.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "组合数"
-            }
+              "title": "直线系"
+            },
+            "group": "2be224da2ddf51bc"
           }
         ]
       }
@@ -44,7 +66,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -171,8 +193,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -202,28 +224,35 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "audio-recorder:开始/结束录音": false,
+      "workspaces:管理工作区布局": false,
       "i18n:I18N": false,
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:打开Git源代码管理": false
     }
   },
-  "active": "f3d7732aa78f7bb4",
+  "active": "6e3e181cbc1a94bd",
   "lastOpenFiles": [
+    "学习/数学/数学笔记/杂项/推理证明.md",
+    "学习/数学/数学笔记/杂项/直线系.md",
+    "学习/散记.md",
+    "学习/数学/数学笔记/排列组合/组合数.md",
+    "学习/数学/数学笔记/排列组合/二项式定理.md",
+    "学习/数学/数学笔记/杂项/行列式.md",
     "学习/信竞算法/板子/逆.md",
     "学习/信竞算法/板子/判质数.md",
     "学习/信竞算法/板子/树状数组.md",
@@ -246,12 +275,6 @@
     "学习/信竞算法/搜索/折半搜索.md",
     "学习/信竞算法/板子/单调队列.md",
     "学习/信竞算法/数据结构/块状结构",
-    "学习/信竞算法/数据结构/树状数组/树状数组.md",
-    "学习/信竞算法/数据结构/珂朵莉树/珂朵莉树.md",
-    "学习/信竞算法/动态规划/LIS.md",
-    "学习/信竞算法/板子/背包.md",
-    "学习/散记.md",
-    "学习/信竞算法/字符串/字符串算法基础.md",
     "题面/洛谷题面/LGR-250-NOIP",
     "题解/洛谷/LGR-250-NOIP",
     "题解/核桃",
