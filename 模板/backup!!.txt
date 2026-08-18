@@ -1,0 +1,20 @@
+# 镜像克隆整个仓库（包含所有分支、标签、历史）
+git clone --mirror https://github.com/你的用户名/仓库名.git backup.git
+
+# 创建名为 new-main 的孤儿分支（没有任何历史记录）
+git checkout --orphan new-main
+
+# 添加所有文件到暂存区
+git add -A
+
+# 生成第一个提交（可自定义提交信息）
+git commit -m "Initial commit (squashed history) and backup"
+
+# 删除本地的旧 main 分支（先确认你在 new-main 上）
+git branch -D main
+
+# 把 new-main 重命名为 main
+git branch -m main
+
+# 强制推送到远程，覆盖原来的 main 分支
+git push -f origin main
