@@ -149,17 +149,17 @@
 
 胡克定律：
 
-简化：弹簧受的 **力** $F$ 与 **形变** $\Delta l$ 成正比 ： $\displaystyle{F = k\Delta l}$
+简化：弹簧受的 **力** $F$ 与 **形变** $\Delta l$ 成正比 ： ${F = k\Delta l}$
 
-深层：弹簧受的 **应力** $\frac{F}{S}$ 与 **应变** $\frac{\Delta l}{l}$ 成正比： $\displaystyle{\frac{F}{S} = E \frac{\Delta l}{l}}$
+深层：弹簧受的 **应力** $\frac{F}{S}$ 与 **应变** $\frac{\Delta l}{l}$ 成正比： ${\frac{F}{S} = E \frac{\Delta l}{l}}$
 
-联立两式，得 $\displaystyle{F = k\Delta l = E \frac{\Delta l S}{l}\implies k = E\left(\frac{S}{l}\right)}$
+联立两式，得 ${F = k\Delta l = E \frac{\Delta l S}{l}\implies k = E\left(\frac{S}{l}\right)}$
 
 其中 $E$ 为 **杨氏模量**，只由材料决定
 
 那么，我们可以证明如下结论：
 
-1. 对 $n$ 个弹簧串联： $\displaystyle{\frac{1}{K} = \sum \frac{1}{k_{i}}}$
+1. 对 $n$ 个弹簧串联： ${\frac{1}{K} = \sum \frac{1}{k_{i}}}$
 
 $$
 \begin{aligned}
@@ -169,7 +169,7 @@ K &= \frac{F}{X} = \frac{F}{\sum x_{i}}= \frac{F}{\sum \frac{F}{k_{i}}} \\
 \end{aligned}
 $$
 
-2. 对 $n$ 个弹簧并联： $\displaystyle{K = \sum k_{i}}$
+2. 对 $n$ 个弹簧并联： ${K = \sum k_{i}}$
 
 $$
 \begin{aligned}
@@ -178,13 +178,13 @@ K &= \frac{F}{X} = \frac{\sum k_{i}X}{X}= \sum k_{i}
 \end{aligned}
 $$
 
-3. 将弹簧切割为原长的 $\lambda(\lambda \lt 1)$ 倍： $\displaystyle{k^{'} =  \frac{1} {{\lambda}} K}$
+3. 将弹簧切割为原长的 $\lambda(\lambda \lt 1)$ 倍： ${k^{'} =  \frac{1} {{\lambda}} K}$
 
 $$
 k^{'} = \frac{ES}{\lambda l} = \frac{1}{{\lambda}} K
 $$
 
-4. 非均匀弹簧（截面或材料眼长度变化）： $\displaystyle{\frac{1}{K} = \int \frac{1}{dk} =\int \frac{dx} {E(x)S(x)}}$
+4. 非均匀弹簧（截面或材料眼长度变化）： ${\frac{1}{K} = \int \frac{1}{dk} =\int \frac{dx} {E(x)S(x)}}$
 
 $$
 \frac{1}{K} = \sum \frac{1}{k_{i}}\implies \frac{1}{K} = \int \frac{1}{dk} =\int \frac{dx} {E(x)S(x)}
@@ -257,9 +257,9 @@ $$
 
 $$
 \begin{cases}
-\displaystyle{\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{x}}{dt^{2}}}\\
-\displaystyle{\vec{v}(t) = \vec{v}_{0} + \int_{0}^{t} \vec{a}(\tau)\,d\tau}\\
-\displaystyle{\vec{x}(t) = \vec{x}_{0} + \int_{0}^{t} \vec{v}(\tau)\,d\tau}
+{\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{x}}{dt^{2}}}\\
+{\vec{v}(t) = \vec{v}_{0} + \int_{0}^{t} \vec{a}(\tau)\,d\tau}\\
+{\vec{x}(t) = \vec{x}_{0} + \int_{0}^{t} \vec{v}(\tau)\,d\tau}
 \end{cases}
 $$
 
@@ -271,15 +271,15 @@ $$
 
 ### 五个基本公式
 
-1. 少 $v_{0}$ 的公式： $\displaystyle{x = v_{t} t - \frac{1}{2} a t^2}$
+1. 少 $v_{0}$ 的公式： ${x = v_{t} t - \frac{1}{2} a t^2}$
 
-2. 少 $v_{t}$ 的公式： $\displaystyle{x = v_{0} t + \frac{1}{2} a t^2}$
+2. 少 $v_{t}$ 的公式： ${x = v_{0} t + \frac{1}{2} a t^2}$
 
-3. 少 $a$ 的公式： $\displaystyle{x = \left( \frac{v_{0} + v_{t}}{2} \right) t}$
+3. 少 $a$ 的公式： ${x = \left( \frac{v_{0} + v_{t}}{2} \right) t}$
 
-4. 少 $t$ 的公式： $\displaystyle{2ax = v_{t}^2 - v_{0}^2}$
+4. 少 $t$ 的公式： ${2ax = v_{t}^2 - v_{0}^2}$
 
-5. 少 $x$ 的公式： $\displaystyle{v_{t} = v_{0} + at}$
+5. 少 $x$ 的公式： ${v_{t} = v_{0} + at}$
 
 ### 四个比例式
 
@@ -293,15 +293,15 @@ $$
 
 ### 三个速度
 
-1. 平均速度：$\displaystyle{\bar{v} = \frac{x}{t}}$
+1. 平均速度：${\bar{v} = \frac{x}{t}}$
 
-2. 中间时刻速度：$\displaystyle{v_{\frac{t}{2}} = \frac{v_{0} + v_{t}}{2}}$
+2. 中间时刻速度：${v_{\frac{t}{2}} = \frac{v_{0} + v_{t}}{2}}$
 
-3. 中间位移速度：$\displaystyle{v_{\frac{x}{2}} = \sqrt{\frac{v_{0}^2 + v_{t}^2}{2}} \gt v_{\frac{t}{2}}}$
+3. 中间位移速度：${v_{\frac{x}{2}} = \sqrt{\frac{v_{0}^2 + v_{t}^2}{2}} \gt v_{\frac{t}{2}}}$
 
 ### 两段运动
 
-- 0-v-0 模型 $\displaystyle{\frac{a_{1}}{a_{2}} = \frac{t_{2}}{t_{1}} = \frac{x_{2}}{x_{1}}}$
+- 0-v-0 模型 ${\frac{a_{1}}{a_{2}} = \frac{t_{2}}{t_{1}} = \frac{x_{2}}{x_{1}}}$
 
 ### 一个打点计时器
 
@@ -321,9 +321,9 @@ $$\bar {a} = \frac{1}{k(k-p)T^2} \sum\limits_{j=1}^{k-p}(x_{j+k}-x_{j})$$
 
 位移差 $x_{i+k} - x_{i} = k\cdot a T^2$
 
-故有 $a_{j} = \displaystyle{\left( \frac{ x_{j+k}-x_{j} }{kT^2} \right)}$ ，其中 $j=1,2,3, \cdots ,(k-p)$
+故有 $a_{j} = {\left( \frac{ x_{j+k}-x_{j} }{kT^2} \right)}$ ，其中 $j=1,2,3, \cdots ,(k-p)$
 
-- 则有 $\displaystyle{\bar {a} = \frac{1}{k-p} \sum\limits_{j=1}^{k-p}a_{j}= \frac{1}{k(k-p)T^2} \sum\limits_{j=1}^{k-p}(x_{j+k}-x_{j})}$ ，其中 $k = \lceil \frac{N}{2}\rceil , p = N\%2$
+- 则有 ${\bar {a} = \frac{1}{k-p} \sum\limits_{j=1}^{k-p}a_{j}= \frac{1}{k(k-p)T^2} \sum\limits_{j=1}^{k-p}(x_{j+k}-x_{j})}$ ，其中 $k = \lceil \frac{N}{2}\rceil , p = N\%2$
 
 ## 渡河问题
 
@@ -362,7 +362,7 @@ $$\bar {a} = \frac{1}{k(k-p)T^2} \sum\limits_{j=1}^{k-p}(x_{j+k}-x_{j})$$
 
 ### 平抛运动
 
-- 以抛出点 $O$ 为原点，初速度 $\vec{v_{0}}$ 方向为 $x$ 轴正向，加速度 $\vec{a} = \vec{g}$ 方向为 $y$ 轴正向，则有： $\begin{cases}v_{x} = v_{0} &,v_{y} = gt\\x = v_{0} t &, y=\frac{1}{2}gt^{2}\end{cases}\implies \displaystyle{h = y = \frac{g}{2 v_{0}^{2}} x^{2}}$
+- 以抛出点 $O$ 为原点，初速度 $\vec{v_{0}}$ 方向为 $x$ 轴正向，加速度 $\vec{a} = \vec{g}$ 方向为 $y$ 轴正向，则有： $\begin{cases}v_{x} = v_{0} &,v_{y} = gt\\x = v_{0} t &, y=\frac{1}{2}gt^{2}\end{cases}\implies {h = y = \frac{g}{2 v_{0}^{2}} x^{2}}$
 
 重要结论：
 1. 时间： $t = \sqrt{\frac{2h}{g}}$ 
@@ -447,7 +447,7 @@ $$G\frac{Mm}{r^{2}} = \begin{cases} m\frac{v^{2}}{r} &\implies \boxed{v} = \sqrt
 
 ### 基本定理
 
-- 黄金代换：忽略自转影响，在地面附近有 $\displaystyle{mg = G\frac{Mm}{R^{2}} \implies gR^{2} = GM}$
+- 黄金代换：忽略自转影响，在地面附近有 ${mg = G\frac{Mm}{R^{2}} \implies gR^{2} = GM}$
 
 开普勒三定律:
 1. **轨道定律**：所有行星绕太阳的轨道都是椭圆，太阳在椭圆焦点。
@@ -574,9 +574,9 @@ $$\begin{aligned}
 
 又因为 $m = {\gamma} m_{0}= \left(\frac{1}{\sqrt{1-\frac{v^{2}}{c^{2}}}}\right)m_{0}$ 得 $E_{k} =\left({\gamma}-1\right)m_{0}c^{2}$
 
-泰勒展开，得泰勒级数 $\displaystyle{E_{k}=\sum\limits_{n=0}^{\infty}\frac{(2n-1)!!}{n!\cdot 2^{n}} m_{0} \frac{v^{2n}}{c^{2n-2}}}$
+泰勒展开，得泰勒级数 ${E_{k}=\sum\limits_{n=0}^{\infty}\frac{(2n-1)!!}{n!\cdot 2^{n}} m_{0} \frac{v^{2n}}{c^{2n-2}}}$
 
-那么 $\displaystyle{E_{k}=\frac{1}{2}m_{0}v^2 + \frac{3}{8}m_{0} \frac{v^{4}} {{c^{2}} } \frac{+5}{16} m_{0} \frac{v^{6}}{c^{4}} + \cdots + \frac{(2n-1)!!}{n!\cdot 2^{n}} m_{0} \frac{v^{2n}}{c^{2n-2}}}$
+那么 ${E_{k}=\frac{1}{2}m_{0}v^2 + \frac{3}{8}m_{0} \frac{v^{4}} {{c^{2}} } \frac{+5}{16} m_{0} \frac{v^{6}}{c^{4}} + \cdots + \frac{(2n-1)!!}{n!\cdot 2^{n}} m_{0} \frac{v^{2n}}{c^{2n-2}}}$
 
 当 $v \ll c$ 时，有 $E_{k} \approx \frac{1}{2}m_{0}v^2$ ，证毕
 
@@ -584,7 +584,7 @@ $$\begin{aligned}
 
 宏观低速下，动量 $p = {\gamma} m_{0} v = \left(\frac{1}{\sqrt{1-\frac{v^{2}}{c^{2}}}}\right) m_{0} v$
 
-根据做功定义 $\displaystyle{W=\int F dx}$ ，得
+根据做功定义 ${W=\int F dx}$ ，得
 
 $$
 \begin{aligned}
@@ -619,7 +619,7 @@ $$
 
 - 通过牛二（匀直）$\begin{cases}\vec{F} =m \vec{a}\\v_{t}^{2}-v_{0}^{2}=2ax\end{cases}\implies W= \int F \cdot dx = m\int a \cdot \left(\frac{v_{t}^{2}-v_{0}^{2}}{2a}\right) =\frac{m}{2} (v_{t}^{2} - v_{0}^{2})$
 
-- 或动量定理 $\displaystyle{W = \int \vec{F}}\cdot dr = \int m \frac{d\vec{v}}{dt} \cdot \vec{v}dt = m\int \vec{v}\cdot d\vec{v} =\frac{m}{2} (v_{t}^{2} - v_{0}^{2})$
+- 或动量定理 ${W = \int \vec{F}}\cdot dr = \int m \frac{d\vec{v}}{dt} \cdot \vec{v}dt = m\int \vec{v}\cdot d\vec{v} =\frac{m}{2} (v_{t}^{2} - v_{0}^{2})$
 
 - 或引用相对论形式证明
 
@@ -686,7 +686,7 @@ $$
 ## 动量 & 冲量
 
 - **动量**：$\vec{p} = m\vec{v}$（矢量，单位：$\text{kg}\cdot\text{m/s}$ ）
-- **冲量**：恒力冲量 $\vec{I} = \vec{F}\Delta t$ ，变力冲量 $\displaystyle{\vec{I} = \int \vec{F} dt}$（矢量，单位：$\text{N}\cdot\text{s}$ ）
+- **冲量**：恒力冲量 $\vec{I} = \vec{F}\Delta t$ ，变力冲量 ${\vec{I} = \int \vec{F} dt}$（矢量，单位：$\text{N}\cdot\text{s}$ ）
 
 简记为 $\begin{cases} p=mv \\ I=Ft \end{cases}$
 
@@ -694,7 +694,7 @@ $$
 
 ## 动量定理
 
-- 由牛二 $\displaystyle{\vec{F}_{\text{合}} = m\vec{a} = m\frac{\Delta \vec{v}}{\Delta t}}$ 得 $\vec{F}_{\text{合}}\,\Delta t = m\Delta \vec{v}$ ，则有动量定理：**外力冲量和** 等于 **动量变化量** 。
+- 由牛二 ${\vec{F}_{\text{合}} = m\vec{a} = m\frac{\Delta \vec{v}}{\Delta t}}$ 得 $\vec{F}_{\text{合}}\,\Delta t = m\Delta \vec{v}$ ，则有动量定理：**外力冲量和** 等于 **动量变化量** 。
 
 $$
 \begin{aligned}
@@ -722,13 +722,13 @@ $$
 
 6. **弹性碰撞结论**： $\begin{cases} \boxed{v_{A}^{'}} &= \left(\frac{p}{\bar{m}} -v_{A}\right)= \left( \frac{2 p_{总}}{m_{A} + m_{B}}\right) - v_{A}\\ &= 2 v_{共} - v_{A}\\ \\ \boxed{v_{B}^{'}} &= \left(\frac{p}{\bar{m}} -v_{B}\right)= \left( \frac{2 p_{总}}{m_{A} + m_{B}}\right) - v_{B}\\ &= 2 v_{共} - v_{B}\\ \\ \boxed{\frac{p}{\bar{m}}} &= v_{A} + v_{A}^{'} = v_{B} + v_{B}^{'} = 2 v_{共}\implies v_{A} - v_{B} = - (v_{A}^{'} - v_{B}^{'})\\ \end{cases}$
 
-7. **完全非弹性碰撞结论**： $\displaystyle{\boxed{E_{损}} = \frac{m_{A}m_{B}}{2(m_{A}+m_{B})}(v_{A}-v_{B})^2}$
+7. **完全非弹性碰撞结论**： ${\boxed{E_{损}} = \frac{m_{A}m_{B}}{2(m_{A}+m_{B})}(v_{A}-v_{B})^2}$
 
 ## 持续冲击问题
 
 - 取一小段时间内经过一个界面的微粒，运用动量定理，约去 $\Delta t$ ，类似求电流大小。
 
-- 如：高压水枪喷出密度为 $\rho$ 的液体以速度 $v$ 撞击面积为 $S$ 的墙面，液体撞击墙面后附着在墙面上，则平均冲击力 $\displaystyle{\bar{F} = \frac{\Delta m v}{\Delta t} = \frac{{\rho}\Delta V v}{\Delta t} =\frac{{\rho} \left( S \Delta x\right) v}{\Delta t} = {\rho} S v^{2}}$
+- 如：高压水枪喷出密度为 $\rho$ 的液体以速度 $v$ 撞击面积为 $S$ 的墙面，液体撞击墙面后附着在墙面上，则平均冲击力 ${\bar{F} = \frac{\Delta m v}{\Delta t} = \frac{{\rho}\Delta V v}{\Delta t} =\frac{{\rho} \left( S \Delta x\right) v}{\Delta t} = {\rho} S v^{2}}$
 
 ## 弹簧传动模型
 
@@ -867,7 +867,7 @@ $$E_k=\frac12(m_A+m_B)v_C^2+\frac12\mu(v_A-v_B)^2,\qquad \mu=\frac{m_Am_B}{m_A+m
 
 - 那么有 $\begin{cases}{F} = -k {x} = m{a}\\ x = Acos ({\omega}t +\varphi) \\ v = \frac{dx}{dt} = - {\omega} A\sin ({\omega}t +\varphi) \\ a = \frac{d^{2}x}{dt^{2}} = - A {\omega}^{2} \cos ({\omega}t +\varphi)\end{cases}$
 
-- 得 $\displaystyle {{\omega} = \sqrt{\frac{k}{m}} ,T= \frac{2\pi}{w}} = 2 \pi \sqrt{\frac{m}{k}}$
+- 得 $ {{\omega} = \sqrt{\frac{k}{m}} ,T= \frac{2\pi}{w}} = 2 \pi \sqrt{\frac{m}{k}}$
 
 注意其周期只由 $m,k$ 决定，与 $A$ 无关
 
@@ -885,7 +885,7 @@ $$\begin{cases} \frac{1}{2} m v^{2} = \frac{1}{2} m {\omega}^{2} A^{2} \sin^{2}{
 
 那么对振动中物体受力分析，向上受重力，向下受弹力 $k(x_{0} + x)$ ，那么有：
 - $F_{合} = mg - k(x_{0} + x) = -kx$  
-- 同理得 $\displaystyle {{\omega} = \sqrt{\frac{k}{m}} ,T= \frac{2\pi}{w}} = 2 \pi \sqrt{\frac{m}{k}}$ 
+- 同理得 $ {{\omega} = \sqrt{\frac{k}{m}} ,T= \frac{2\pi}{w}} = 2 \pi \sqrt{\frac{m}{k}}$ 
 - 那么对系统总能量，以平衡位置为势能零点，即 令 $\frac{1}{2}k x_{0}\to 0$ ，那么有： $E =\frac{1}{2}mv^{2} +\frac{1}{2} k (x_{0}+x)^{2} - mgx\left( -\frac{1}{2}k x_{0}\right)$
 - 整理得 $E =\frac{1}{2}mv^{2} + \frac{1}{2}k x^{2} = \frac{1}{2}k A^{2}$
 
@@ -1024,7 +1024,7 @@ $$\begin{cases} \frac{1}{2} m v^{2} = \frac{1}{2} m {\omega}^{2} A^{2} \sin^{2}{
 
 ### 基本物理量
 
-- 机械波基本物理量 $\displaystyle{v = \frac{\lambda}{T} = {\lambda}f}$
+- 机械波基本物理量 ${v = \frac{\lambda}{T} = {\lambda}f}$
 	1. 波长 $\lambda$ ：振动相位总是相同的两个相邻质点间的距离。对横波，是相邻波峰（或波谷）的距离；对纵波，是相邻密部（或疏部）中心的距离。
 	2. 周期 $T$ 与频率 $f$ ：波的周期（频率）等于波源振动的周期（频率），也与介质中各质点振动的周期（频率）相同。波进入不同介质时，周期和频率不变。
 	3. 波速 $v$ ：振动形式在介质中传播的速度。它由介质本身的性质决定，与波源的振动频率无关。
@@ -1056,10 +1056,10 @@ $$\boxed{\Delta x = k\lambda\ \Rightarrow\ \text{振动加强} \qquad \Delta x =
 其中 $k = 0,\,1,\,2,\cdots$。若两相干波源反相，则加强、减弱条件恰好互换。加强点的合振幅为 $A_1 + A_2$，减弱点的合振幅为 $\left|A_1 - A_2\right|$；但加强点的位移仍随时间周期性变化，并非始终处于波峰或波谷。
 
 2. **机械波波速的决定式**（波速只由介质性质决定，与波源的频率和振幅无关）：
-   - 弦线（绳）上横波：$\displaystyle{v = \sqrt{\frac{F}{\mu}}}$（$F$ 为张力，$\mu$ 为线密度）
-   - 固体细棒中纵波：$\displaystyle{v = \sqrt{\frac{Y}{\rho}}}$（$Y$ 为杨氏模量）
-   - 液体/气体中纵波：$\displaystyle{v = \sqrt{\frac{K}{\rho}}}$（$K$ 为体积模量）
-   - 理想气体中声速：$\displaystyle{v = \sqrt{\frac{\gamma RT}{M}}}$
+   - 弦线（绳）上横波：${v = \sqrt{\frac{F}{\mu}}}$（$F$ 为张力，$\mu$ 为线密度）
+   - 固体细棒中纵波：${v = \sqrt{\frac{Y}{\rho}}}$（$Y$ 为杨氏模量）
+   - 液体/气体中纵波：${v = \sqrt{\frac{K}{\rho}}}$（$K$ 为体积模量）
+   - 理想气体中声速：${v = \sqrt{\frac{\gamma RT}{M}}}$
 
 3. **多普勒效应定量公式**（波源与观察者沿同一直线运动，$v$ 为介质中的波速）：
 $$f' = f \cdot \frac{v \pm v_o}{v \mp v_s}$$
@@ -1101,9 +1101,9 @@ $$\boxed{f_n = \frac{n}{2L}\sqrt{\frac{F}{\mu}} = n f_1 \quad (n = 1,\,2,\,3,\cd
 
 ## 库仑定律
 
-- **库仑定律**：真空中两静止电荷间的作用力称为 **库仑力** $\displaystyle{F=k \frac{Qq}{r^2}}$ 
+- **库仑定律**：真空中两静止电荷间的作用力称为 **库仑力** ${F=k \frac{Qq}{r^2}}$ 
 
-- 介质中库仑力： $\displaystyle{F=k \frac{Qq}{\varepsilon r^2}}$ ，其中 $\varepsilon(\varepsilon \gt 1)$ 称为 **电介质的相对介电常数**，只由材料种类决定。
+- 介质中库仑力： ${F=k \frac{Qq}{\varepsilon r^2}}$ ，其中 $\varepsilon(\varepsilon \gt 1)$ 称为 **电介质的相对介电常数**，只由材料种类决定。
 
 ## 电场
 
@@ -1190,9 +1190,9 @@ $$
 
 两彼此绝缘又相互靠近的导体组成 **电容器**，两道题称为电容器的 **极板**，中间的绝缘物质为 **电介质**。
 
-电容器所带电荷量 $Q$ 与电容器两极板间的电势差 $U$ 的比值，叫做电容器的电容，用 $\displaystyle{C=\frac{Q}{U}}$ 表示。
+电容器所带电荷量 $Q$ 与电容器两极板间的电势差 $U$ 的比值，叫做电容器的电容，用 ${C=\frac{Q}{U}}$ 表示。
 
-对平行板电容，有 $\displaystyle{C=\frac{\varepsilon_{r}S}{4\pi kd}}$ ，为平行板电容的决定式。
+对平行板电容，有 ${C=\frac{\varepsilon_{r}S}{4\pi kd}}$ ，为平行板电容的决定式。
 
 其中 $\varepsilon_{r}$ 称为 **电介质** 的 **相对介电常数**，只由材料种类决定，$S$ 为极板间的 **正对面积**，$k$ 为静电力常数。
 
@@ -1249,7 +1249,7 @@ $$
 
 ## 电流微观表达式
 
-- 导线单位体积自由电荷数 $n$ ，则电流 $\displaystyle{I = \frac{q}{t} = \frac{Ne}{t} = \frac{nVe}{t} = \frac{neSL}{t} = neSv}$
+- 导线单位体积自由电荷数 $n$ ，则电流 ${I = \frac{q}{t} = \frac{Ne}{t} = \frac{nVe}{t} = \frac{neSL}{t} = neSv}$
 
 ## 闭合电路欧姆定律
 
@@ -1327,9 +1327,9 @@ $$
 
 ## 磁场强度
 
-- 对空间理想无限长直导线，其电流激发的磁场强度为 $\displaystyle{H = \frac{I}{2\pi r}}$ ，即电流强度除以电流同心圆周长，方向可以由右手定则快速判断
+- 对空间理想无限长直导线，其电流激发的磁场强度为 ${H = \frac{I}{2\pi r}}$ ，即电流强度除以电流同心圆周长，方向可以由右手定则快速判断
 
-而反过来通过安培环路定律，可以通过对磁场做环路积分得到电流大小 $\displaystyle{\oint_{C} \vec{H}\cdot d\vec{l} = I_{c}}$
+而反过来通过安培环路定律，可以通过对磁场做环路积分得到电流大小 ${\oint_{C} \vec{H}\cdot d\vec{l} = I_{c}}$
 
 ## 磁感应强度
 
@@ -1373,9 +1373,9 @@ $$
 
 $$
 \begin{cases}
-\displaystyle{m \Delta v_{x} = \int f_{x} dt = \int Bv_{y}q\cdot dt = qBy}
+{m \Delta v_{x} = \int f_{x} dt = \int Bv_{y}q\cdot dt = qBy}
 \\
-\displaystyle{m \Delta v_{y} = \int f_{y} dt = -\int Bv_{x}q\cdot dt = -qBx}
+{m \Delta v_{y} = \int f_{y} dt = -\int Bv_{x}q\cdot dt = -qBx}
 \end{cases}
 $$
 
@@ -1466,9 +1466,9 @@ $$
 
 理想气体方程 $PV = nRT$ ，其中 $n$ 为气体分子物质的量
 
-根据[自由度](https://chat.deepseek.com/share/9pv3dsx4pl0n9f76zi)，气体分子平均动能 $\displaystyle{E = \frac{i}{2}kT}$ ，总内能 $\displaystyle{U = \frac{i}{2}nRT = \frac{i}{2}PV}$ 
+根据[自由度](https://chat.deepseek.com/share/9pv3dsx4pl0n9f76zi)，气体分子平均动能 ${E = \frac{i}{2}kT}$ ，总内能 ${U = \frac{i}{2}nRT = \frac{i}{2}PV}$ 
 
-气体涨缩做功 $\displaystyle{W = \int F \cdot dx = \int PS \cdot dx = \int_{V_{1}}^{V_{2}} P \cdot dV}$
+气体涨缩做功 ${W = \int F \cdot dx = \int PS \cdot dx = \int_{V_{1}}^{V_{2}} P \cdot dV}$
 
 再根据 $\Delta U = W+Q$ 可得放热
 
@@ -1476,7 +1476,7 @@ $$
 
 - 根据玻意耳定律 $PV = k = nRT$ 
 
-- 对外做功 $\displaystyle{W = \int_{V_1}^{V_2} P \, dv = nRT \int_{V_1}^{V_2} \frac{1}{v} \, dv = nRT \ln\frac{V_2}{V_1}}$
+- 对外做功 ${W = \int_{V_1}^{V_2} P \, dv = nRT \int_{V_1}^{V_2} \frac{1}{v} \, dv = nRT \ln\frac{V_2}{V_1}}$
 
 ### 等容过程
 
@@ -1594,7 +1594,7 @@ $$
 
 以此，我们可以进一步导出光电效应中，光电管不同电压下的光电流的规律，即 $I-U$ 曲线：
 
-1. 最大动能与反向电压恰好抵消时，有 $\displaystyle{eU_{c} = E_{k\text{ max}} = h\nu -W_{0} \implies U_{c} = \frac{h\nu}{e} - \frac{w_{0}}{e}}$
+1. 最大动能与反向电压恰好抵消时，有 ${eU_{c} = E_{k\text{ max}} = h\nu -W_{0} \implies U_{c} = \frac{h\nu}{e} - \frac{w_{0}}{e}}$
 2. 饱和光电流电压足够大时，所有光电子都到阳极，电流不再增大，其大小与入射光强成正比
 
 ## 康普顿效应
@@ -1714,7 +1714,7 @@ $$\Delta\lambda = \lambda' - \lambda = \frac{h}{m_e c}(1-\cos\theta) = \lambda_C
 1. 电子在一些特定的可能轨道上绕核作圆周运动，离核愈远能量愈高；可能的轨道由电子的角动量必须是 $\frac{h}{2\pi}$ 的整数倍决定
 2. 当电子在这些可能的轨道上运动时原子不发射也不吸收能量，只有当电子从一个轨道跃迁到另一个轨道时原子才发射（高 -> 低）或吸收（低 -> 高）能量
 
-- **只能解释氢原子光谱及类氢离子**，即 $\displaystyle{h\nu = E_{n} - E_{m} = E_{1} \left(\frac{1}{n^{2}} - \frac{1}{m^{2}}\right)}$
+- **只能解释氢原子光谱及类氢离子**，即 ${h\nu = E_{n} - E_{m} = E_{1} \left(\frac{1}{n^{2}} - \frac{1}{m^{2}}\right)}$
 
 ---
 
@@ -1809,7 +1809,7 @@ $$\Delta\lambda = \lambda' - \lambda = \frac{h}{m_e c}(1-\cos\theta) = \lambda_C
 
 由于放射性原子的衰变具有一定的周期性，根据统计学规律，放射性元素的原子核由半数发生衰变所需的时间，叫做这种元素的半衰期
 
-- 那么对半衰期 $t$ 有 $\displaystyle{\left(\frac{1}{2}\right)^{{t}/{T}} = \frac{N_{\text{余}}}{ N_{\text{原}} } = \frac{m_{\text{余}}}{ m_{\text{原}} }}$
+- 那么对半衰期 $t$ 有 ${\left(\frac{1}{2}\right)^{{t}/{T}} = \frac{N_{\text{余}}}{ N_{\text{原}} } = \frac{m_{\text{余}}}{ m_{\text{原}} }}$
 
 > 注意半衰期只适用于大量原子核  
 
