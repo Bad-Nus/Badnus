@@ -162,20 +162,20 @@
 1. 对 $n$ 个弹簧串联： $\displaystyle{\frac{1}{K} = \sum \frac{1}{k_{i}}}$
 
 $$
-\begin{split}
+\begin{aligned}
 F &= KX = k_{i}x_{i}\\ 
 K &= \frac{F}{X} = \frac{F}{\sum x_{i}}= \frac{F}{\sum \frac{F}{k_{i}}} \\
 \frac{1}{K} &= \sum \frac{1}{k_{i}}
-\end{split}
+\end{aligned}
 $$
 
 2. 对 $n$ 个弹簧并联： $\displaystyle{K = \sum k_{i}}$
 
 $$
-\begin{split}
+\begin{aligned}
 F &= KX = \sum k_{i}X\\ 
 K &= \frac{F}{X} = \frac{\sum k_{i}X}{X}= \sum k_{i}
-\end{split}
+\end{aligned}
 $$
 
 3. 将弹簧切割为原长的 $\lambda(\lambda \lt 1)$ 倍： $\displaystyle{k^{'} =  \frac{1} {{\lambda}} K}$
@@ -526,10 +526,10 @@ $$X(\alpha) = \frac{v_0^2\sin 2\alpha}{g} \le \boxed{\frac{v_0^2}{g}} = X_{\max}
 
 最高点恰能通过时 $v_{\text{高}} = \sqrt{gR}$，由机械能守恒：
 
-$$\begin{split}
+$$\begin{aligned}
 \frac{1}{2}mv_{\text{低}}^2 &= \frac{1}{2}mv_{\text{高}}^2 + 2mgR\\
 &= \frac{1}{2}mgR + 2mgR = \frac{5}{2}mgR
-\end{split}$$
+\end{aligned}$$
 
 得 $\boxed{v_{\text{低}} = \sqrt{5gR}}$。这是"水流星"、竖直圆轨道等模型能完成完整圆周运动的最小初速度条件。
 
@@ -587,30 +587,30 @@ $$\begin{split}
 根据做功定义 $\displaystyle{W=\int F dx}$ ，得
 
 $$
-\begin{split}
+\begin{aligned}
 d(E_{k}) &= Fdx = \frac{dp}{dt} dx = v\cdot dp\\
 E_{k} &= \int_{0}^{v} v\cdot dp\\
 &=\left[vp\right]_{0}^{v} - \int_{0}^{v} p\cdot dv\\
 &={\gamma} m_{0} v^{2} - \int_{0}^{v}({\gamma} m_{0} v)dv
-\end{split}
+\end{aligned}
 $$
 
 又因为
 
 $$
-\begin{split}
+\begin{aligned}
 d{\gamma} &={\gamma}^3 \frac{v}{c^{2}} dv\\ 
 {\gamma}v\cdot dv &=\frac{c^{2}} {{\gamma}^{2}} d{\gamma}\\
 \int_{0}^{v} {\gamma}v\cdot dv &= \int_{1}^{\gamma} \frac{c^{2}} {{\gamma}^{2}} d{\gamma} = c^{2}\left[- \frac{1}{\gamma}\right]_{1}^{\gamma} = c^{2}\left(1 - \frac{1}{\gamma}\right)
-\end{split}
+\end{aligned}
 $$
 
 故 
 
 $$
-\begin{split}
+\begin{aligned}
 E_{k} &= {\gamma} m_{0} v^{2} - m_{0}c^{2}\left(1 - \frac{1}{\gamma}\right)\\ &= m_{0} c^{2}\left({\gamma} - \frac{1} {{\gamma}} \right) - m_{0}c^{2}\left(1 - \frac{1}{\gamma}\right)\\ & = m_{0} c^{2}\left({\gamma} - 1 \right)
-\end{split}
+\end{aligned}
 $$
 
 此时 $m_{0} c^{2}\left({\gamma} - 1 \right)$ 泰勒展开与质能证明同理，证毕
@@ -1154,14 +1154,14 @@ $$
 将电荷 $q$ 从 $P$ 点径向移到无穷远，以 $\hat{r}$ 为径向单位向量， $d \vec{l}$ 为路径微元，积分径向向外，故 $d\vec{l} = dr \cdot \hat{r}$ ，则电场力做功：
 
 $$
-\begin{split}
+\begin{aligned}
 W_{P \to \infty} &=\int_{r}^{\infty} qE \cdot dl\\
 &=q \int_{r}^{\infty} \left(\frac{kQ}{r^{2}} \hat{r}\right) \cdot ( dr \cdot \hat{r})\\
 &=kQq\int_{r}^{\infty} \left(\frac{1}{r^{2}} dr\right) \\
 &= kQq \left[ -\frac{1}{r} \right]_{r}^{\infty} \\
 &= kQq \left( 0 - \left(-\frac{1}{r}\right) \right)\\
 &= \frac{kQq}{r}
-\end{split}
+\end{aligned}
 $$
 
 - 故 $\begin{cases}E_{p} = W_{P \to \infty} = \frac{kQq}{r}\\ \varPhi_{P} = \frac{E_{p}}{q} = \frac{kQ}{r} \end{cases}$ 
@@ -1175,11 +1175,11 @@ $$
 由电场叠加原理 $E_{总} = \sum\limits_{i \in \text{场}} E_{i}$ ，将电荷 $q$ 从 $P$ 点移到无穷远，电场力做功：
 
 $$
-\begin{split}
+\begin{aligned}
 W_{P \to \infty} &= \int_{P}^{\infty} q\vec{E_{总}} \cdot d\vec{l}\\
 &= q \int_{P}^{\infty} \left(\sum\limits_{i \in \text{场}} \vec{E_{i}}\right) \cdot d\vec{l}\\
 &= q \sum\limits_{i \in \text{场}}\left(\int_{P}^{\infty}\vec{E_{i}} \cdot d\vec{l} \right)\\
-\end{split}
+\end{aligned}
 $$
 
 - 引用单场源电势结论处理积分后求和，即得 $\begin{cases}E_{p} = W_{P \to \infty} = q \sum\limits_{i \in \text{场}}\frac{kQ_{i}}{r_{i}}\\ \varPhi_{P} = \frac{E_{p}}{q} = \sum\limits_{i \in \text{场}}\frac{kQ_{i}}{r_{i}}\end{cases}$
